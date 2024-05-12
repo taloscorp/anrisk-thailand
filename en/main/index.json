@@ -1,0 +1,103 @@
+{
+    "hello": [
+        "Hello, "
+    ],
+    "report": {
+        "title": "Manage Reports",
+        "description": "View and manage risk analysis reports"
+    },
+    "company": {
+        "title": "Manage Clients",
+        "description": "View and manage client details"
+    },
+    "account": {
+        "title": "Manage Accounts",
+        "description": "View and manage accounts"
+    },
+    "link": "Go to page",
+    "expire-date": [
+        "There are ",
+        " days left in your free trial period."
+    ],
+    "primary-button": "Analyze risk",
+    "message": {
+        "read-success": "Successful retrieval",
+        "read-failure": "Failed to retrieve",
+        "error": "Please try again in a moment",
+        "sample-success": "Sample form download successful",
+        "sample-failure": "Failed to download the sample template",
+        "data-not-found": "There are no recent analyzes."
+    },
+    "monthly-transaction": {
+        "title": "Analysis Status by Month",
+        "date-unit": [
+            "/",
+            ""
+        ],
+        "month-unit": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ]
+    },
+    "total-transaction": {
+        "title": "Number of analyses per year",
+        "description": "When you select a distributor, only the number of analyzes from that distributor's direct contract customers is displayed. When you select a customer company, only the number of analyzes from that customer company is displayed.",
+        "data-not-found": "Analysis report does not exist.",
+        "dist": "Dist",
+        "chart": {
+            "title": "Date",
+            "total": "Total cases",
+            "billing": "Billed cases",
+            "duplicate": "Duplicate cases",
+            "free": "Promotion cases"
+        }
+    },
+    "client-status": {
+        "title": "Client Status",
+        "chart": {
+            "series": {
+                "total": "Total clients",
+                "data-not-found": "There are no active clients.",
+                "in-negotiation": "In negotiation",
+                "drafting": "Drafting",
+                "uncontracted": "Uncontracted",
+                "contracted": "Contracted",
+                "end-contract": "End contract",
+                "in-progress": "In progress",
+                "in-progress-tooltip": "The client registration request has been completed, and this is the number of clients waiting for review.",
+                "rejection": "Rejection",
+                "rejection-tooltip": "This is the number of clients whose screening was rejected due to registration regulations.",
+                "expire": "Expired",
+                "expire-tooltip": "The effective date of the goodwill is less than 1 month, it is scheduled to be converted to non-contract, and the goodwill is limited."
+            }
+        }
+    },
+    "security": {
+        "title": "Security",
+        "description": [
+            "If you log in from a different location, the existing login session will be terminated",
+            "If 7 days have passed after the completion of the analysis, it will be automatically deleted"
+        ]
+    },
+    "disclaimer": {
+        "title": "Disclaimer",
+        "dist": [
+            "• Contracting and sales to hospitals outside those that are registered via the platform are not permitted.",
+            "• Hospitals that do not have an official business registration certificate or have been registered as a client by another distributor cannot be registered.",
+            "• Proof of an actual sales meeting must be submitted before a client hospital registration is accepted.",
+            "• If the registered client hospital does not generate significant sales for the past 6 months, the hospital will be unregistered from the client list and re-registration will not be permitted.",
+            "• In order for hospitals to use ANRISK™, the terms of a standard contract must first be agreed upon. TALOS Corp. does not bear any legal or administrative liability arising from the non-compliance of this contract.",
+            "• When a hospital uploads patient information to ANRISK™, the agreement of the standard consent form must be obtained from the patient and be stored at the hospital. TALOS Corp. does not bear any legal or administrative liability arising from the non-compliance of this agreement."
+        ]
+    }
+}

@@ -1,0 +1,309 @@
+{
+    "meta-title": "Request Analysis | ANRISK",
+    "home": "HOME",
+    "sub-title": "Select analysis method",
+    "submit": "Request Analysis",
+    "request-setting": "Report Settings",
+    "report-type": "File Format",
+    "file-option": "File package option",
+    "locale-setting": "Language Settings",
+    "report-setting": "Please select the report language, file format, and file package options before making an analysis request. The full file package includes the analysis report, the Excel file that was uploaded, and an Excel file with the result of the analysis.",
+    "yes": "Include all",
+    "no": "Report only",
+    "excel": {
+        "title": "Excel File Analysis",
+        "description": [
+            "When requesting an analysis, please upload",
+            "only one",
+            "Excel file containing the patient's health checkup result data. To request more analyses, please upload one file at a time.",
+            "It is highly recommended that you enter and upload data according to the sample template."
+        ],
+        "header": {
+            "info": "Please upload an Excel file containing the patient's health checkup result data. This can be your own template or the sample template provided below.",
+            "upload": "Upload Excel file",
+            "upload-tooltip": "Please upload the file you want to request analysis for",
+            "excel-file": "Sample Excel file for requesting risk assessment"
+        },
+        "submit-tooltip": "Please submit the report for analysis",
+        "sample-download": "Download Sample Template",
+        "sample-downlaod-tooltip": "You can download the sample template",
+        "sample-download-success": "Sample form download successful",
+        "sample-download-failure": "Sample form download failed",
+        "sample-download-error": "Sample form download failed. Please try again in a moment",
+        "submit-error": "Report submission failed. Please try again in a moment",
+        "sample-form": "How to Use the Sample Template",
+        "sample-form-tooltip": "You can review the instructions for the sample template",
+        "dropzone": {
+            "title": "Please select the file",
+            "description": "Drag and drop files here or click to find files",
+            "delete-tooltip": "Delete"
+        }
+    },
+    "input": {
+        "title": "Analysis Request Form",
+        "form": {
+            "title": [
+                "Fill in the form",
+                "Family history",
+                "Smoking status"
+            ],
+            "info": [
+                "Please enter directly the patient’s health checkup result data and request an analysis.",
+                "The required fields are marked with an asterisk ‘*’. If you do not know the values of the optional fields, please leave it blank."
+            ],
+            "chart-number": "Chart Number",
+            "date": "Date",
+            "name": "Name",
+            "age": "Age",
+            "male": "Male",
+            "female": "Female",
+            "gender": "Gender",
+            "height": "Height",
+            "weight": "Weight",
+            "bpHigh": "Systolic blood pressure",
+            "bpLwst": "Diastolic blood pressure",
+            "waist": "Waist circumference",
+            "blds": "Blood glucose",
+            "totChole": "Total cholesterol",
+            "triglyceride": "Triglycerides",
+            "hdlChole": "HDL cholesterol",
+            "ldlChole": "LDL cholesterol",
+            "hmg": "Hemoglobin",
+            "creatinine": "Creatinine",
+            "sgotAst": "GOT/AST",
+            "sgptAlt": "GPT/ALT",
+            "gammaGtp": "GGT/GTP",
+            "fmlyApopPatienYn": "Family history of stroke",
+            "fmlyHdisePatienYn": "Family history of hypertension",
+            "fmlyHprtsPatienYn": "Family history of cardiovascular disease",
+            "fmlyDiabmlPatienYn": "Family history of diabetes",
+            "smkStatTypeRspsCd": "Smoking status",
+            "unknown": "Unknown",
+            "yes": "Yes",
+            "no": "No",
+            "non-smoker": "Non smoker",
+            "former-smoker": "Former smoker",
+            "current-smoker": "Current smoker",
+            "delete-all": "Delete All"
+        },
+        "message": {
+            "update-success": "Modification completed",
+            "delete-success": "Deletion completed",
+            "name": "Please enter your name",
+            "age": {
+                "required": "Please enter your age",
+                "error": "Age must be between 20 and 99."
+            },
+            "height": {
+                "required": "Please enter your height",
+                "error": "The height must be between 101 and 250."
+            },
+            "weight": {
+                "required": "Please enter your weight",
+                "error": "Your weight should be between 26 and 200."
+            },
+            "bpHigh": {
+                "required": "Please enter your systolic blood pressure",
+                "error": "Systolic blood pressure should be between 70 and 300."
+            },
+            "bpLwst": {
+                "required": "Please enter your diastolic blood pressure",
+                "error": "Your diastolic blood pressure should be between 36 and 200."
+            },
+            "waist": "The waist circumference should be between 51 and 299",
+            "blds": "The blood glucose level should be between 26 and 999",
+            "totChole": "The total cholesterol level should be between 26 and 999",
+            "triglyceride": "The triglycerides level should be between 1 and 9999",
+            "hdlChole": "The high-density lipoprotein (HDL) cholesterol level should be between 1 and 999",
+            "ldlChole": "The low-density lipoprotein (LDL) cholesterol level should be between 1 and 999",
+            "hmg": "The hemoglobin level should be between 1 and 20.39",
+            "creatinine": "The creatinine level should be between 0.1 and 99",
+            "sgotAst": "The Serum Glutamic-Oxaloacetic Transaminase (SGOT/AST) level should be between 1 and 9999",
+            "sgptAlt": "The Serum Glutamic-Pyruvic Transaminase (SGPT/ALT) level should be between 1 and 9999",
+            "gammaGtp": "The Gamma-Glutamyl Transferase (GGT/GTP) level should be between 1 and 9999",
+            "special-char-error": "Special characters cannot be entered."
+        },
+        "info": "Only the data selected in the checkboxes will be requested for analysis",
+        "case": "details",
+        "add-case": "Save",
+        "modify-case": "Update",
+        "add-info": "Save before requesting analysis",
+        "add-success": "Addition completed",
+        "modify-success": "Modification completed",
+        "submit-tooltip": "Request for report analysis",
+        "error": "Please try again in a moment",
+        "delete-success": "Deletion completed successfully",
+        "delete-error": "Deletion failed. Please try again in a moment",
+        "non-check": "Please select the case(s) for analysis",
+        "max-length": "You can request a maximum of 10 data entries \n Please delete some existing data and add new ones",
+        "all-delete-confirm": "Are you sure you want to delete all the data?",
+        "all-delete-success": "All data has been successfully deleted",
+        "all-delete-failure": "Failed to delete all data. Please try again in a moment.",
+        "request-error": "Analysis request has failed. Please try again in a moment.",
+        "confirm": "Did you verify if the data is accurate?"
+    },
+    "image": {
+        "title": "Image Analysis",
+        "description": "Please take a photo and upload the template containing the patient's health checkup result data.",
+        "upload": "Upload image file",
+        "info": [
+            "Requests can only be made with",
+            "registered templates.",
+            "To change the registered template, please send us an",
+            "email.",
+            "After uploading the image file, click the ‘Analyze Image’ button to extract the image data. To upload another image, click the 'Reupload Image' button.",
+            "Please check if the extracted data is correct before requesting an analysis. You can edit the values once the image has been analyzed."
+        ],
+        "sample-button": "Download template",
+        "another-image": "Reupload Image",
+        "request-button": "Analyze Image",
+        "request-info": "Request Information",
+        "request-image": "Uploaded Image",
+        "request-data": "Request Data",
+        "chart-number-required": "Please enter the chart number. You may leave it blank if unknown.",
+        "incorrect-record": "Please re-capture the health examination record correctly",
+        "template-error": "Please upload the data using the correct template.",
+        "fields": {
+            "chart-number": "Chart Number",
+            "date": "Date",
+            "name": "Name",
+            "age": "Age",
+            "male": "Male",
+            "female": "Female",
+            "gender": "Gender",
+            "height": "Height",
+            "weight": "Weight",
+            "bpHigh": "Systolic blood pressure",
+            "bpLwst": "Diastolic blood pressure",
+            "waist": "Waist circumference",
+            "blds": "Blood glucose",
+            "totChole": "Total cholesterol",
+            "triglyceride": "Triglycerides",
+            "hdlChole": "HDL cholesterol",
+            "ldlChole": "LDL cholesterol",
+            "hmg": "Hemoglobin",
+            "creatinine": "Creatinine",
+            "fmlyApopPatienYn": "Family history of stroke",
+            "fmlyHdisePatienYn": "Family history of hypertension",
+            "fmlyHprtsPatienYn": "Family history of cardiovascular disease",
+            "fmlyDiabmlPatienYn": "Family history of diabetes",
+            "smkStatTypeRspsCd": "Smoking status",
+            "unknown": "Unknown",
+            "yes": "Yes",
+            "no": "No",
+            "non-smoker": "Non smoker",
+            "former-smoker": "Former smoker",
+            "current-smoker": "Current smoker"
+        }
+    },
+    "management": {
+        "meta-title": "Risk Analysis Details | ANRISK",
+        "title": "Manage Reports",
+        "read-success": "Successful retrieval",
+        "read-error": "Failed to retrieve",
+        "table": {
+            "label": {
+                "report": {
+                    "delete": "Delete",
+                    "deleted": "Deleted",
+                    "expire-description": "Expired",
+                    "complete": "Completed",
+                    "complete-description": "Analysis completed",
+                    "failed": "Failed",
+                    "failed-description": "Analysis failed",
+                    "column-error": "Incorrect file",
+                    "ing": "In Progress",
+                    "ing-description": "Analysis in progress",
+                    "report-download": "Analysis file download",
+                    "download": "Download"
+                }
+            },
+            "index": "Analysis",
+            "index-description": "Index",
+            "file": "Report",
+            "file-description": "The name of the uploaded file",
+            "payment": "Payment Type",
+            "analysis-status": "Analysis Status",
+            "case": "Cases (Total / Successful / Failed)",
+            "total-case": "Total cases",
+            "success-case": "Successful cases",
+            "failure-case": "Failed Cases",
+            "date": "Date / Time",
+            "date-description": "Date of analysis completion",
+            "report-delete": "Delete",
+            "payment-error": "The payment has failed. Please try again in a moment.",
+            "download-success": "The report download is complete",
+            "download-error": "The report download has failed. Please try again in a moment.",
+            "report-delete-success": "Successfully deleted",
+            "report-delete-failure": "Deletion failed",
+            "report-delete-error": "Deletion failed. Please try again in a moment.",
+            "search-belong": "Search by account or company name",
+            "all": "View all reports",
+            "filter-my": "View only my reports",
+            "file-name": "file name",
+            "no-data": "There is nothing to display.",
+            "delete-error": "You can only delete your own reports."
+        }
+    },
+    "modal": {
+        "title": "Please select your preferred method of submitting an analysis request",
+        "noti": "Notification",
+        "confirm": "Confirm",
+        "delete": "Delete",
+        "header": {
+            "excel": "Upload Excel file",
+            "input": "Enter health checkup results directly",
+            "image": "Upload image file"
+        },
+        "description": {
+            "excel": [
+                "Request an analysis by uploading an Excel file containing the examiner's health checkup results.",
+                "This method is recommended for large numbers of patients.",
+                "If you do not have a standard form, please download and use the Excel file sample as a template."
+            ],
+            "form": [
+                "Request an analysis by directly entering the examiner's health checkup results in a form.",
+                "This method is recommended for a smaller number of patients."
+            ],
+            "image": [
+                "Take a photo of a form containing the examiner’s health checkup results and upload to the platform.",
+                "This method is recommended for a smaller number of patients.",
+                "If you do not have a standard form, please download and use the sample questionnaire form as a template."
+            ]
+        },
+        "agree": {
+            "title": "ANRISK Personal Information Usage",
+            "description": [
+                "Users must comply with relevant laws when directly uploading patient information to the ANRISK™ platform and must exercise caution so that accurate information is uploaded. Users are solely responsible for any violation of relevant laws or the uploading of inaccurate information due to their intentional or negligent actions.",
+                "The reports generated by the ANRISK™ platform are statistical comparisons of similarities between the provided data and the health information of patients with cerebral aneurysms. These reports do not constitute medical judgment or diagnosis. Users may use the reports for reference purposes and are responsible for its use."
+            ],
+            "checkbox": "I agree to the collection and use of personal information as stated above"
+        },
+        "report-url": "Go to report history",
+        "another-request": "Make another request",
+        "disagree": "To analyze the report, your consent is required for the use of personal information",
+        "success": "We will send you an email notification once the analysis has been completed.",
+        "delete-all": "Are you sure you want to delete all the data?",
+        "payment-confirm": {
+            "transfer": "Transfer",
+            "card": "Credit Card",
+            "register": "Please register your payment method",
+            "cancle-description": "Payment has been canceled",
+            "complete": "Payment has been completed"
+        },
+        "download-info": "The password to extract the downloaded report is your 10-digit business registration number",
+        "download-failure": [
+            "You can download it after the payment is completed",
+            "Clicking the Unpaid button will open the payment window"
+        ],
+        "already-deleted": "It has already been deleted.",
+        "delete-confirm": [
+            "After deletion, it cannot be recovered.",
+            "Are you sure you want to delete the report?"
+        ],
+        "file-upload": "File is missing. Please upload a file before requesting an analysis.",
+        "missing-info": "Required information is missing from the Excel file. Please fill in the required data and upload the file.",
+        "file-limit": "You can only upload one file at a time. To request more analyses, please make one request at a time.",
+        "data-confirm": "Please check if the entered data is correct."
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "type": "Insitution type",
+    "direct": "Direct",
+    "dist": "Distributor",
+    "all": "All",
+    "count": "Number of reports",
+    "amount": "Total analysis cost",
+    "unitPrice": "Average price",
+    "search": "Search",
+    "select-company": "Please select a client company.",
+    "sales": {
+        "meta-title": "Sales Statistics | ANRISK",
+        "title": "Sales Statistics",
+        "home": "HOME",
+        "no-data": "There is no analysis history.",
+        "download": "Export as Excel file",
+        "date-label": "View date",
+        "date-error": "It cannot be earlier than today's date.",
+        "download-success": "Sales statistics download successful",
+        "download-failure": "Sales statistics download failed. Please try again in a few minutes."
+    },
+    "clients": {
+        "meta-title": "Client Statistics | ANRISK",
+        "title": "Client Statistics",
+        "home": "HOME",
+        "download": "Export as Excel file",
+        "labels": [
+            "Daily",
+            "Weekly",
+            "Monthly",
+            "Quaterly",
+            "Semi-annually",
+            "Yearly"
+        ],
+        "download-success": "Client statistics download successful",
+        "download-failure": "Client statistics download failed. Please try again in a few minutes."
+    },
+    "invoice": {
+        "meta-title": "Tax invoice | ANRISK",
+        "title": "Tax invoice",
+        "date-label": "Monthly period lookup",
+        "download": "Export as Excel file",
+        "date-info": "Please select a date for monthly downloads.",
+        "download-success": "Tax invoice download successful",
+        "download-failure": "Tax invoice download failed.\nPlease try again in a few minutes.",
+        "file-name": "Tax invoice"
+    },
+    "promotion": {
+        "meta-title": "Promotion Statistics | ANRISK",
+        "title": "Promotion Statistics",
+        "home": "HOME",
+        "no-data": "There is no promotion history.",
+        "download": "Export as Excel file",
+        "date-label": "View date",
+        "date-error": "It cannot be earlier than today's date.",
+        "download-success": "Promotion statistics download successful",
+        "download-failure": "Promotion statistics download failed. Please try again in a few minutes."
+    }
+}

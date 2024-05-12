@@ -1,0 +1,33 @@
+{
+    "title": {
+        "risk-analysis": "Risk Analysis",
+        "client": "Manage Clients",
+        "sales": "Manage Sales",
+        "support": "Support",
+        "setting": "Setting"
+    },
+    "subheader": {
+        "risk-analysis": "Request Analysis",
+        "risk-analysis-management": "Manage Reports",
+        "account-management": "Accounts",
+        "company-management": "Clients",
+        "sales-stats": "Sales Statistics",
+        "company-stats": "Client Statistics",
+        "company-invoice": "Tax Invoice",
+        "user-manual": "User Manual",
+        "security": "Security",
+        "logout": "Logout",
+        "resources": "Resources",
+        "inquiry": "Inquiry",
+        "mypage": "My Page",
+        "policy": "Privacy Policy",
+        "admin": {
+            "report-sample": "Manage Samples"
+        }
+    },
+    "access": {
+        "dist": "distribution manager",
+        "manager": "manager",
+        "user": "customer"
+    }
+}

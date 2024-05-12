@@ -1,0 +1,285 @@
+{
+    "home": "首頁",
+    "excel": {
+        "dropzone": {
+            "delete-tooltip": "刪除"
+        }
+    },
+    "management": {
+        "meta-title": "管理客戶 | ANRISK",
+        "title": "管理客戶",
+        "search": "搜尋客戶姓名",
+        "my": "我的客戶",
+        "all": "所有客戶",
+        "add-button": "新增客戶",
+        "filter": {
+            "reset": "重置",
+            "all": "全部",
+            "label": {
+                "country": "國家"
+            },
+            "buttonList": {
+                "country": {
+                    "ko": "韓國",
+                    "ja": "日本",
+                    "india": "印度"
+                }
+            }
+        },
+        "info": "已經註冊的醫院目前正在透過其他經銷商進行營運。請注意避免重複銷售。",
+        "table": {
+            "name": "姓名",
+            "managerName": "主管",
+            "phone": "電話號碼",
+            "email": "電子郵件",
+            "companyType": "公司類型",
+            "paymentType": "付款方式",
+            "unitPrice": "單價",
+            "createdDate": "建立日期",
+            "status": "地位",
+            "address": "地址",
+            "modify": "更新",
+            "more": "更多的",
+            "no-data": "沒有註冊客戶。"
+        },
+        "modal": {
+            "noti": "警報",
+            "confirm": "查看",
+            "title": "客戶登記",
+            "free": "自由的",
+            "free-trial-expire": "截止日期",
+            "free-trial-expire-type": "到期日後的付款類型",
+            "status": "合約狀態",
+            "request": "註冊審核中",
+            "reject": "駁回審查",
+            "ing": "討論中",
+            "ing-done": "諮詢結束",
+            "non": "未簽約的",
+            "complete": "合約",
+            "complete-done": "合約終止",
+            "form": {
+                "name": "請輸入客戶公司名稱。",
+                "managerName": "請填寫代表負責人姓名。",
+                "phone": {
+                    "required": "請輸入您的代表聯絡資訊。",
+                    "matches": "請輸入正確的聯絡資訊。"
+                },
+                "email": {
+                    "matches": "請以電子郵件格式輸入。",
+                    "required": "請輸入您的主要電子郵件地址。"
+                },
+                "address": "請輸入您的地址。",
+                "detail-address": "請輸入您的詳細地址。",
+                "unit-price": "請輸入單價。",
+                "unit-price-error": "單價只能輸入數字。",
+                "distributed": "請選擇分發訊息。",
+                "status": "請選擇您的合約狀態。",
+                "type": "請選擇機構類型。",
+                "date-error": "它不能早於今天的日期。"
+            }
+        }
+    },
+    "detail": {
+        "client": "顧客",
+        "more": "更多的",
+        "modify": "編輯",
+        "update": "改變",
+        "save": "儲存您的編輯",
+        "request": "註冊審核",
+        "info": {
+            "title": "基本訊息",
+            "type": "器官類型",
+            "number": "商業號碼",
+            "name": "機構名稱",
+            "country": "國家",
+            "address": "地址",
+            "dist": "經銷商",
+            "hosp": "醫院",
+            "non-hosp": "非醫院",
+            "etc": "Etc",
+            "ko": "韓國",
+            "en": "美國",
+            "ja": "日本",
+            "zhTW": "台灣",
+            "zhCN": "中國",
+            "india": "印度"
+        },
+        "contract": {
+            "title": "合約資訊",
+            "description": "當新客戶註冊時，狀態為「註冊審核正在進行中」。如果審核通過，則變為“協商中”，並顯示註冊時輸入的單價和免費試用日期。如果合約狀態有任何更改，您可以透過點擊「更改」按鈕來更新狀態。",
+            "status": "情況",
+            "date": "日期",
+            "monthly": "每月支付",
+            "free-trial": "免費試用",
+            "expire-date": "截止日期",
+            "account": "更新帳戶",
+            "account-talos": "這是 TALOS 內部帳戶。",
+            "payment": "付款方式",
+            "payment-title": "支付訊息",
+            "unitPrice": "單價 (TWD)",
+            "modal": {
+                "title": "變更合約資訊",
+                "description": "如果您的合約資訊發生更改，您可以編輯該資訊。儲存前請再次檢查以確保您要編輯的資訊正確無誤。",
+                "status": "合約狀態",
+                "expire-date": "免費試用到期日",
+                "in-negotiation": "討論中",
+                "contracted": "合約",
+                "end-contract": "合約終止",
+                "reason": "原因",
+                "missing-card": "名片遺失",
+                "missing-files": "支援文件不足",
+                "missing-info": "訊息輸入錯誤",
+                "etc": "ETC"
+            }
+        },
+        "files": {
+            "title": "支援文件",
+            "description": "這是註冊為客戶時上傳的證明文件。您可以透過點擊檔案名稱來檢查圖像。",
+            "not-found": "沒有上傳證明文件"
+        },
+        "manager": {
+            "title": "聯絡資訊",
+            "agency": "機構",
+            "rep": "機構",
+            "pic": "計算",
+            "name": "姓名",
+            "phone": "接觸",
+            "email": "電子郵件",
+            "modal": {
+                "title": "編輯聯絡資訊",
+                "description": [
+                    "必填的地方已做標記 ",
+                    "。如果您沒有或不知道結算負責人資訊，請留空。"
+                ]
+            }
+        }
+    },
+    "create": {
+        "title": "新客戶註冊",
+        "description": "請上傳支援文件並輸入基本資訊以建立新客戶。請求註冊後，審核完成後將透過電子郵件發送通知。",
+        "required": "（附*號為必填項目）",
+        "optional": "（選擇）",
+        "back": "向後",
+        "next": "下一個",
+        "skip": "跳過",
+        "request": "客戶註冊請求",
+        "status-info": "合約狀態將在審核完成後更新。",
+        "modify": "編輯",
+        "modify-save": "儲存數據",
+        "error": "這是已經存在的客戶資訊。",
+        "try-again": "請稍後再試。",
+        "update-success": "修改已完成。",
+        "create-failure": "客戶註冊請求失敗。",
+        "update-failure": "修改客戶公司的請求失敗。",
+        "update-info": "您想使用此資訊進行編輯嗎？",
+        "request-again": "我們要求使用此資訊重新檢查我們的客戶註冊。",
+        "request-again-success": "您重新檢查客戶註冊的請求已完成。",
+        "request-again-failure": "您的複審請求失敗。",
+        "status-ing": "您要批准該客戶註冊嗎？",
+        "status-ing-success": "客戶註冊已獲批准。",
+        "status-reject": "您想拒絕該客戶的註冊嗎？",
+        "status-reject-success": "客戶註冊已被拒絕。",
+        "files": {
+            "title": "上傳支援文件",
+            "info": [
+                "相當於 ANRISK 相關時間和日期的會議照片的資料",
+                "(必需的)",
+                "1. 我們遇到的客戶負責人名片+配送公司負責人名片",
+                "2. 實際 ANRISK 銷售的會面證明",
+                "- 顯示客戶員工和銷售人員參加 ANRISK 銷售會議的照片中的日期證明（即使不顯示臉部，顯示醫院名稱等的照片也是可以接受的）",
+                "- 預約簡訊、電子郵件截圖",
+                "- 會後表達謝意或發送銷售資料的電子郵件截圖",
+                "有關 ANRISK 指南的其他支援照片、文件等",
+                "(選修的)"
+            ],
+            "required": "請上傳所需的支援文件。",
+            "dropzone": [
+                "將文件拖曳到或點擊此處",
+                "請選擇您要上傳的檔案。"
+            ]
+        },
+        "info": {
+            "title": "輸入基本訊息",
+            "duplicate": "再檢查一遍",
+            "number": {
+                "name": "商業號碼",
+                "required": "請輸入您的 10 位數商業登記號碼。",
+                "matches": "請輸入正確的商業登記號碼。",
+                "duplicate-invalid": "這是一個已經註冊的客戶。",
+                "duplicate-success": "這是可以註冊的商業號碼。",
+                "duplicate-check": "請檢查是否有重複的商業登記號碼。"
+            },
+            "customer-info": "客戶資訊",
+            "required": "(帶*為必填)",
+            "optional": "(選修的)",
+            "managerInfo": "代理商聯絡資訊",
+            "picInfo": "結算聯絡方式",
+            "back": "回去",
+            "next": "下個階段",
+            "add-request": "客戶註冊請求",
+            "add": "新客戶註冊",
+            "add-info": "請上傳支援文件並輸入基本資訊以建立新客戶。請求註冊後，審核完成後將透過電子郵件發送通知。",
+            "status-info": "合約狀態將在審核完成後更新。",
+            "modify": "更新",
+            "modify-save": "儲存數據",
+            "request-again-button": "複試",
+            "request-again-success": "請求復審",
+            "info": "基本訊息",
+            "name": "姓名",
+            "managerName": "代表負責人姓名",
+            "managerPhone": "代表聯絡方式",
+            "managerEmail": "代表聯絡信箱",
+            "picName": "結算負責人姓名",
+            "picPhone": "結算聯絡方式",
+            "picEmail": "結算聯絡信箱",
+            "company-number": "工作電話(可選填)",
+            "companyType": "公司類型",
+            "contract-info": "合約類型",
+            "unitPrice": "單價",
+            "paymentType": "付款方式",
+            "monthly": "每月",
+            "free-trial": "免費試用",
+            "phone": {
+                "matches": "請輸入正確的聯絡資訊。"
+            },
+            "email": {
+                "matches": "請以電子郵件格式輸入。"
+            },
+            "address": {
+                "search": "搜尋地址",
+                "required": "請輸入您的地址。"
+            },
+            "detail-address": {
+                "name": "詳細地址",
+                "required": "請輸入您的詳細地址。"
+            }
+        },
+        "contract": {
+            "title": "合約狀態",
+            "unitPrice": "單價",
+            "unit-price-error": "單價只能輸入數字。",
+            "status": "情況",
+            "expire-date": "免費試用到期日"
+        },
+        "confirm": {
+            "go-back": "回去",
+            "info": "您確認您所註冊的資料正確無誤嗎？",
+            "warning": "如果在註冊客戶後 6 個月內沒有產生銷售，您可能會失去該客戶的專屬權。",
+            "description": [
+                "與目前註冊客戶簽訂合約的優先權分配給",
+                "我們懇請您為客戶的共同發展而努力，",
+                "和 Talos"
+            ],
+            "sub-description": "敏感資訊（例如單價等）除註冊客戶公司名稱、地址及註冊日期外不會透露給其他公司。註冊客戶公司名稱、地址、註冊日期以外的敏感資訊（例如單價等）不會透露給其他公司。",
+            "cancel": "取消",
+            "confirm": "添加",
+            "create-success": [
+                "新客戶註冊請求已完成",
+                "感謝您請求新客戶註冊。審核結束後，我們將向您發送審核結果的電子郵件通知（審核期後3個工作天內）。",
+                "收到篩選批准後，您可以建立一個帳戶。"
+            ],
+            "add-more": "額外註冊",
+            "go-to-page": "進入客戶管理頁面"
+        }
+    }
+}

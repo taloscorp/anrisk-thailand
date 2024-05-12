@@ -1,0 +1,144 @@
+{
+    "home": "首頁",
+    "meta-title": "管理帳戶 | ANRISK",
+    "title": "管理帳戶",
+    "search": "搜尋",
+    "all-read": "重置",
+    "add-button": "新增帳戶",
+    "table": {
+        "index": "指數",
+        "access": "權威",
+        "company": "類型",
+        "updatedDate": "上次造訪日期",
+        "createdDate": "建立日期",
+        "modify": "更新",
+        "more": "更多的",
+        "search-info": "請輸入您要搜尋的值。"
+    },
+    "modal": {
+        "title": "編輯帳戶",
+        "add": "註冊帳戶",
+        "add-info": "若要建立帳戶，請先選擇客戶公司。如果您無法搜尋到客戶公司，請註冊新的客戶公司。",
+        "select-company": "註冊客戶搜尋",
+        "select-company-info": "請輸入您想要註冊帳戶的客戶的姓名。如果您找不到，請點擊下面的「註冊新客戶公司」按鈕來註冊您的客戶公司。",
+        "company-name": "顧客姓名",
+        "firstStep": {
+            "title": "隱私",
+            "description": "請輸入帳戶使用負責人資訊。註冊帳戶後，您可以在我的頁面編輯您的資訊。",
+            "repr": "與代理商聯絡資訊相同",
+            "pic": "與結算管理員資訊相同",
+            "new": "+ 新增帳戶"
+        },
+        "secondStep": {
+            "title": "設定電子郵件通知",
+            "description": "您將透過電子郵件收到有關 ANRISK 平台的重要通知。我們建議您接收所有這些，並且即使您的帳戶註冊後也可以更改您的收據狀態。",
+            "general": "常見的",
+            "general-info": "我們將向您發送與您的帳戶相關的查詢和通知。",
+            "general-radio": "接收一般通知電子郵件",
+            "report": "報告",
+            "report-info": "我們將向您發送有關分析狀態和報告的通知。",
+            "report-radio": "接收報告通知電子郵件"
+        },
+        "required": "基本的",
+        "optional": "選擇",
+        "back": "向後",
+        "next": "下一個",
+        "next-step": "下個階段",
+        "data-not-found": "沒有數據可顯示。",
+        "add-company": "新客戶註冊",
+        "add-company-info": "請上傳支援文件並輸入基本資訊以建立新客戶。請求客戶註冊後，審核完成後將透過電子郵件發送通知。",
+        "search-belong": "搜尋隸屬關係",
+        "info": "編輯帳戶",
+        "modify-info": "編輯帳戶資訊",
+        "report-info": "當分析完成、產生報告、計劃刪除報告以及報告已刪除時，我們將向您發送通知。",
+        "admin-setting": "管理員權限",
+        "report-alarm": "接收報告通知電子郵件（可選）",
+        "general-info": "我們將向您發送查詢和帳戶相關通知。",
+        "email-alarm": "接收一般通知電子郵件（可選）",
+        "add-complete": "新帳戶註冊完成",
+        "add-complete-info": "初始存取資訊已發送至您註冊的電子郵件地址。",
+        "modify": "更新",
+        "modify-save": "儲存數據",
+        "status": {
+            "title": "Account Status",
+            "info": [
+                "Deactivating the account means that the user can no longer access the platform.",
+                "Reseting the password will send an email to the user to reset a new password.",
+                "Once you click ‘logout’, the user will be logged out of the platform immediately."
+            ],
+            "radio": "Activate account"
+        },
+        "name": "姓名",
+        "id": "身份",
+        "phone": "電話號碼",
+        "email": "電子郵件",
+        "belong": "機構(公司)",
+        "dist": "經銷商",
+        "manager": "主管",
+        "customer": "顧客",
+        "add-belong": "新增客戶",
+        "alarm-setting": "通知設定",
+        "general": "一般的",
+        "report": "報告",
+        "inactive-info": "禁用帳戶狀態。",
+        "inactive": "帳戶暫停",
+        "active-info": "啟動您的帳戶狀態。",
+        "active": "啟用",
+        "password-reset-info": "重設您的帳戶密碼。",
+        "password-reset": "重新設密碼",
+        "logout-info": "登出您的帳戶。",
+        "logout": "登出",
+        "try-again": "請稍後再試。",
+        "id-exist": "該 ID 已被佔用。請使用不同的ID進行註冊。",
+        "email-exist": "該郵件地址已被使用。請使用不同的電子郵件註冊。",
+        "logout-success": "註銷完成",
+        "logout-failure": "註銷失敗",
+        "logout-failure-info": "註銷失敗。請稍後再試。",
+        "password-reset-success": "密碼重置完成",
+        "password-reset-failure": "密碼重置失敗",
+        "password-reset-failure-info": "密碼重置失敗。請稍後再試。",
+        "status-success": "帳戶狀態變更完成",
+        "status-failure": "帳戶狀態變更失敗",
+        "status-failure-info": "更改帳戶狀態失敗。請稍後再試。",
+        "create-success": "帳戶創建成功。",
+        "update-success": "您的帳戶已成功編輯。",
+        "noti": "通知",
+        "confirm": "確認",
+        "cancel": "更正",
+        "create": {
+            "success": "帳戶創建成功。",
+            "failure": "帳戶建立失敗。"
+        },
+        "update": {
+            "info": "您想儲存您的修改嗎？",
+            "confirm": "更正"
+        },
+        "password-reset-confirm": "您要重設該帳號的密碼嗎？",
+        "logout-confirm": "您想退出您的帳戶嗎？",
+        "inactive-confirm": "您想將此帳戶變更為非活動狀態嗎？",
+        "active-confirm": "您想將此帳戶變更為活動狀態嗎？",
+        "form": {
+            "id": {
+                "matches": "不能輸入空格和特殊字元。",
+                "min": "請輸入至少 3 個字元。",
+                "max": "請輸入最多 20 個字元。",
+                "required": "請輸入您的身分證件。"
+            },
+            "name": {
+                "min": "請輸入至少 2 個字元。",
+                "max": "請輸入最多 20 個字元。",
+                "required": "請輸入你的名字。"
+            },
+            "email": {
+                "matches": "請以電子郵件格式輸入。",
+                "min": "請輸入至少 3 個字元。",
+                "required": "請輸入您的電子郵件地址。"
+            },
+            "phone": {
+                "required": "請輸入您的聯絡資訊。",
+                "matches": "請輸入正確的手機號碼。"
+            },
+            "belong": "請選擇您的所屬。"
+        }
+    }
+}

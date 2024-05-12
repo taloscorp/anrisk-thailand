@@ -1,0 +1,187 @@
+{
+    "title": "登入 - ANRISK",
+    "form": {
+        "id": "身份",
+        "password": "密碼"
+    },
+    "info": [
+        "歡迎來到 ANRISK™ 平台。",
+        "請輸入為使用平台連線而建立的帳戶的 ID 和密碼。如果您還沒有建立帳戶，請點擊下面的介紹查詢按鈕或透過電子郵件與我們聯絡。謝謝"
+    ],
+    "contact": "ANRISK™介紹查詢",
+    "login": "登入",
+    "user-manual": "用戶手冊",
+    "user-manual-info": "使用者手冊中提供如何使用該平台的說明。",
+    "kakao-channel-inquiry": "Kakao 頻道1：1諮詢",
+    "login-info": "首次登入時，密碼將發送至註冊時註冊的郵箱",
+    "email": "電子郵件",
+    "auto-login": "自動登入",
+    "find-id": "尋找身分證",
+    "find-id-description": "請輸入為尋找您的 ID 而建立的帳戶中輸入的姓名和電子郵件地址。",
+    "find-id-form": {
+        "name": "姓名",
+        "email": "電子郵件地址",
+        "next": "下一個",
+        "save": "節省"
+    },
+    "reset-password": "重新設密碼",
+    "account-info": "如果您尚未建立帳戶，請透過下面的查詢按鈕或透過電子郵件與我們聯絡。",
+    "thankyou": "謝謝。",
+    "message": {
+        "id": {
+            "required": "請輸入您的身份號碼"
+        },
+        "password": {
+            "matches": "請創立最少8字元的密碼，包括大小寫、數字、特殊符號",
+            "required": "請輸入您的密碼",
+            "not-matched": "密碼不符。",
+            "new": "請輸入新密碼。",
+            "min": "請輸入至少 8 個字元的密碼。",
+            "confirm": "重新輸入密碼"
+        },
+        "name": {
+            "required": "請輸入您的名字。",
+            "min": "請輸入至少 2 個字元的名稱。"
+        },
+        "email": {
+            "required": "請輸入您的電子郵件地址。",
+            "valid": "請輸入有效的電子郵件地址。"
+        },
+        "submit": {
+            "success": "登入成功",
+            "failure": "登入失敗",
+            "try-again": "登入失敗，請重試",
+            "error": "請稍後再試",
+            "account-none": "找不到使用者帳號",
+            "incorrect": "身份號碼或密碼輸入錯誤",
+            "undefined": "該用戶不存在。",
+            "email": "發電子郵件",
+            "email-info": [
+                "驗證電子郵件已傳送至您輸入的電子郵件地址。",
+                "如果您沒有收到電子郵件，請檢查電子郵件是否正確。"
+            ],
+            "reset-info": [
+                "請輸入您建立的帳戶的 ID 和電子郵件地址以重設密碼。"
+            ],
+            "password-confirm": "請再次輸入你的密碼。",
+            "reset-success": "您的密碼已重設。請在登入頁面使用您的ID和新密碼登入。",
+            "login": "前往登入頁面"
+        },
+        "help": [
+            "如果您需要協助，請聯絡 ",
+            "hello@taloscorp.io"
+        ]
+    },
+    "contact-form": {
+        "title": [
+            "有關於腦動脈瘤風險分析服務",
+            "的簡介相關問題"
+        ],
+        "name": "名 / 姓",
+        "name-ex": "例如) 小明王",
+        "name-required": "請輸入您的姓名",
+        "name-min": "請輸入至少兩個字元",
+        "name-max": "請輸入至多十個字元",
+        "belong": "機構(公司)",
+        "belong-ex": "例如) TALOS公司",
+        "belong-required": "請輸入您的機構(公司)",
+        "company-number": "工作電話(可選填)",
+        "company-number-ex": "例如) 0123456789",
+        "company-number-required": "請輸入10位數字的商業登記號碼",
+        "company-number-incorrect": "請輸入有效的商業登記號碼",
+        "email": "電子郵件",
+        "email-ex": "例如) example@email.com",
+        "email-required": "請輸入電子郵件位址",
+        "email-format": "請輸入正確形式的電子郵件",
+        "phone": "電話號碼",
+        "phone-ex": "例如) +1 123-456-7890",
+        "phone-required": "請輸入您的電話號碼",
+        "phone-format": "請輸入有效的電話號碼",
+        "contents": "備註",
+        "contents-ex": "例如) 我有一個關於帳號條款的疑問",
+        "contents-min": "請輸入至少三個字",
+        "contents-required": "請輸入備註",
+        "policy": [
+            "我同意",
+            "隱私政策及cookie相關政策"
+        ],
+        "submit": "提交",
+        "submit-error": "提交失敗",
+        "info": [
+            "藉由提交這個問題，您同意",
+            "請發送任何問題到",
+            "hello@taloscorp.io"
+        ],
+        "inquiry-email": "hello@taloscorp.io"
+    },
+    "modal": {
+        "noti": "通知",
+        "confirm": "確認",
+        "submit-success": "完成",
+        "submit-success-description": "感謝您的提問，我們會盡快審視您的問題並回覆您",
+        "submit-failure": "失敗",
+        "submit-failure-description": "提出問題時，請同意我們的隱私政策及Cookie政策",
+        "password-success": "修改密碼成功",
+        "password-failure": "修改密碼失敗",
+        "try-agian": "請重試",
+        "duplicate": [
+            "您已從另一台裝置連線。",
+            "您想要中斷與現有裝置的連線並繼續登入嗎？",
+            "(若強行終止，5分鐘後即可連線。)"
+        ],
+        "password": [
+            "自您設定密碼以來已過 90 天。",
+            "保護您寶貴的個人資訊",
+            "請定期更改您的密碼。",
+            "稍後更改",
+            "立即更改"
+        ],
+        "remember": [
+            "如果您保持登入狀態",
+            "30 天內您無需輸入 ID 和密碼。",
+            "個人資訊可能在公共場所外洩。",
+            "請僅供個人使用。"
+        ]
+    },
+    "footer": {
+        "ceo": "執行長",
+        "ceo-name": "Tackeun Kim",
+        "business-number": "商業註冊號碼",
+        "online-business-number": "線上商業註冊號碼",
+        "online-business-number-value": "2022-首爾 江南-06523",
+        "address": "160, Yeoksam-ro, Gangnam-gu, Seoul, Republic of Korea",
+        "ad-blocking-message": "若安裝廣告阻擋器，部份特徵將無法運作"
+    },
+    "password": {
+        "meta-title": "重設密碼 | ANRISK",
+        "title": "重設密碼",
+        "first-info": [
+            "為了安全性考量，請在首次登入後重設密碼",
+            "修改密碼後請重新登入"
+        ],
+        "expire-info": [
+            "自從您上次修改密碼後已經過了90天了，請修改您的密碼",
+            "修改密碼後請重新登入"
+        ],
+        "change-info": [
+            "個人情報のためにパスワードを変更してください。",
+            "パスワードを設定して3ヶ月が経過しました。",
+            "大切な個人情報保護のためにパスワードを定期的に変更してください。"
+        ],
+        "change": "今変更する",
+        "change-later": "次に変更する",
+        "password": "密碼",
+        "password-tooltip": "請創立最少8字元的密碼，包括大小寫、數字、特殊符號",
+        "password-required": "請輸入您的密碼",
+        "password-confirm": "密碼確認",
+        "password-confirm-tooltip": "請再次輸入您的密碼",
+        "password-confirm-error": "輸入密碼不吻合",
+        "update": "更新",
+        "invalid": "無效訪問。",
+        "email": "hello@taloscorp.io",
+        "invalid-info": [
+            "如果您在設定密碼時遇到任何問題，請聯絡",
+            "。"
+        ]
+    }
+}

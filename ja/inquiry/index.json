@@ -1,0 +1,81 @@
+{
+    "home": "ホーム",
+    "read-success": "正常に検索されました。",
+    "read-failure": "検索に失敗しました。",
+    "read-error": "しばらくしてからもう一度お試しください。",
+    "create": {
+        "meta-title": "質問を書く | ANRISK",
+        "title": "質問を書く",
+        "sub-title": "お問い合わせ",
+        "header": "お問い合わせ",
+        "category": "カテゴリー",
+        "category-tooltip": "カテゴリを選択してください。",
+        "account": "アカウント",
+        "payment": "お支払い",
+        "report": "レポート",
+        "proposal": "提案",
+        "withdrawal": "退会",
+        "other": "その他",
+        "contents": "お問い合わせ内容",
+        "contents-tooltip": "お問い合わせ内容をご入力ください。",
+        "button": "送信",
+        "button-tooltip": "チケットを作成します。",
+        "failure": "問い合わせの生成に失敗しました",
+        "error": "問い合わせの生成に失敗しました。しばらくしてからもう一度お試しください。",
+        "min": "少なくとも3桁以上入力してください。",
+        "max": "最大200桁以下で入力してください。",
+        "required": "お問い合わせ内容をご入力ください。"
+    },
+    "read": {
+        "meta-title": "お問い合わせ | ANRISK",
+        "title": "お問い合わせ",
+        "create-button": "質問を書く",
+        "table": {
+            "options": [
+                "シリアル番号順（昇順）",
+                "シリアル番号順（降順）",
+                "カテゴリー順（昇順）",
+                "カテゴリー順（降順）",
+                "質問内容順（昇順）",
+                "質問内容順（降順）",
+                "回答順（昇順）",
+                "回答順（降順）",
+                "作成日（最新順）",
+                "作成日（古い順）"
+            ],
+            "start-date-error": "開始日が終了日を超えることはできません。",
+            "end-date-error": "終了日は開始日早くできません。",
+            "unanswer": "未回答",
+            "unanswer-description": "答えはまだありません。",
+            "success": "回答完了",
+            "success-description": "答えが走りました。",
+            "select": "条件",
+            "select-tooltip": "条件を選択して検索してみてください。",
+            "index": "番号",
+            "category": "分類",
+            "inquiry": "内容",
+            "create-date": "日時",
+            "answer": "回答内容",
+            "search": "検索",
+            "sort": "ソート",
+            "start-date": "開始日",
+            "end-date": "終了日",
+            "all-read": "全履歴を照会します。",
+            "date-read": "期間履歴を照会します。",
+            "period-search": "期間検索",
+            "status": "回答状態"
+        }
+    },
+    "detail": {
+        "meta-title": "お問い合わせ履歴 | ANRISK",
+        "title": "お問い合わせ履歴",
+        "inquiry-tooltip": "お問い合わせ内容です。",
+        "answer": "回答",
+        "answer-tooltip": "答えの内容です。"
+    },
+    "modal": {
+        "noti": "お知らせ",
+        "generate-success": "チケットが作成されました。",
+        "confirm": "確認"
+    }
+}

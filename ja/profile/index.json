@@ -1,0 +1,138 @@
+{
+    "title": "マイページ | ANRISK",
+    "header": "マイページ",
+    "home": "ホーム",
+    "message": {
+        "read-failure": "検索失敗",
+        "error": "しばらくお待ちください。後で再試行してください"
+    },
+    "taps": {
+        "general": "一般",
+        "security": "セキュリティ",
+        "noti": "メールの受信設定"
+    },
+    "general": {
+        "title": "プロフィール",
+        "image-info": "プロフィール画像は変更できません",
+        "form": {
+            "name": "担当者名",
+            "belong": "会社名",
+            "business-number": "法人番号",
+            "email": "メールアドレス",
+            "phone": "お電話番号",
+            "address": "住所",
+            "payment-status": {
+                "case": "個別支払い",
+                "monthly": "月次支払い",
+                "free-trial": "無料体験"
+            },
+            "payment-method": "支払い方法",
+            "expire-date": "無料体験の有効期限"
+        },
+        "message": {
+            "name": {
+                "required": "お名前を入力してください",
+                "min": "最低2文字以上のお名前を入力してください",
+                "max": "最大で10文字以内でお名前を入力してください"
+            },
+            "belong": {
+                "required": "所属(会社)を入力してください"
+            },
+            "business-number": {
+                "required": "法人番号を入力してください",
+                "valid": "10桁の数字で法人番号を入力してください"
+            },
+            "email": {
+                "required": "メールアドレスを入力してください",
+                "valid": "メールアドレスの形式で入力してください",
+                "error": "既に使用されているメールアドレスです"
+            },
+            "phone": {
+                "required": "連絡先を入力してください",
+                "valid": "正しい携帯電話番号を入力してください"
+            },
+            "address": {
+                "required": "住所を入力してください"
+            },
+            "update-info": "情報を変更します"
+        }
+    },
+    "belong": {
+        "ko": "韓国",
+        "en": "アメリカ",
+        "ja": "日本",
+        "zhTW": "台湾",
+        "zhCN": "中国",
+        "title": "所属情報",
+        "companyType": "機関タイプ",
+        "contractDate": "契約日",
+        "country": "所属国",
+        "name": "所属名",
+        "companyNumber": "事業者番号",
+        "manager": "担当者名",
+        "phone": "お問い合わせ",
+        "email": "Eメール",
+        "unitPrice": "単価",
+        "paymentType": "決済タイプ",
+        "address": "住所"
+    },
+    "security": {
+        "ip": {
+            "title": "アクセスIP設定",
+            "button": "自分のIPを確認する",
+            "access-ip": "接続を許可するIP",
+            "min": "接続を許可するIPを入力してください"
+        },
+        "password": {
+            "title": "パスワードの変更",
+            "password": "パスワードを入力してください",
+            "password-confirmation": "パスワード確認",
+            "password-confirmation-message": "もう一度パスワードを入力してください",
+            "password-update-message": "もう一度パスワードを入力してください",
+            "min": "英大文字・小文字、数字、特殊文字を組み合わせて、8文字以上",
+            "incorrect-password": "パスワードが一致しません",
+            "required": "パスワードを入力してください",
+            "button": "変更"
+        },
+        "api-key": {
+            "title": "API KEY Configuration",
+            "api-key": "API KEY",
+            "api-key-info": "You can check the generated API key",
+            "message": {
+                "once-info": "The generated API key will be displayed only once and cannot be viewed in the future",
+                "lost-info": "If you have lost your key, you will need to generate a new key",
+                "inquiry-info": "For details, please contact the development team",
+                "generate-modal": "If you click the Create button, a new API KEY will be created.\nThe existing API KEY can no longer be used."
+            },
+            "generate-api-key": "Generating an API key",
+            "button": "Generate",
+            "copy": "copy",
+            "cancle": "Cancle"
+        },
+        "message": {
+            "ip-error": "IP情報を取得できません",
+            "api-key": "API key generation completed",
+            "clipboard": "Copied to clipboard",
+            "clipboard-failure": "Failed to copy to clipboard"
+        }
+    },
+    "noti": {
+        "general": {
+            "title": "一般",
+            "description": "その他の重要な連絡も受信します。",
+            "email-noti": "メール通知"
+        },
+        "report": {
+            "title": "レポート",
+            "description": "レポート関連のみ受信します。",
+            "report-noti": "報告書関連の通知"
+        },
+        "modal": {
+            "update-success": "情報の変更が完了しました。",
+            "update-error": "情報の変更に失敗しました。",
+            "confirm": "確認",
+            "password-changed": "* 変更されたパスワードでログインしてください。",
+            "logout-info": "* ログアウトするには、OKをクリックしてください。"
+        }
+    }
+}

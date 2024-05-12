@@ -1,0 +1,80 @@
+{
+    "home": "HOME",
+    "read-success": "Successful retrieval",
+    "read-failure": "Failed retrieval",
+    "read-error": "Please try again in a moment",
+    "create": {
+        "meta-title": "Create an inquiry | ANRISK",
+        "title": "Create an inquiry",
+        "sub-title": "Inquiry",
+        "header": "Inquiry",
+        "category": "Category",
+        "category-tooltip": "Please select a category",
+        "account": "Account",
+        "payment": "Payment",
+        "report": "Report",
+        "proposal": "Proposal",
+        "withdrawal": "Withdrawal",
+        "other": "Other",
+        "contents": "Inquiry details",
+        "contents-tooltip": "Please enter your inquiry details",
+        "button": "Write",
+        "button-tooltip": "Writing an inquiry",
+        "failure": "Failed to write the inquiry",
+        "error": "Failed to write the inquiry. Please try again in a moment.",
+        "min": "Please enter at least 3 characters",
+        "max": "Please enter up to 200 characters",
+        "required": "Please enter your inquiry"
+    },
+    "read": {
+        "meta-title": "Inquiry | ANRISK",
+        "title": "Inquiry",
+        "create-button": "Write your inquiry",
+        "table": {
+            "options": [
+                "In ascending order of serial number",
+                "In descending order of serial number",
+                "In alphabetical order of category",
+                "In reverse alphabetical order of category",
+                "In alphabetical order of question content",
+                "In reverse alphabetical order of question content",
+                "In alphabetical order of answer",
+                "In reverse alphabetical order of answer",
+                "By the latest creation date",
+                "By the oldest creation date"
+            ],
+            "start-date-error": "The start date cannot exceed the end date",
+            "end-date-error": "The end date cannot be earlier than the start date",
+            "unanswer": "Unanswered",
+            "success": "ANSWERED",
+            "success-description": "A response has been posted",
+            "select": "Select",
+            "select-tooltip": "Please select the criteria and try searching",
+            "index": "Index",
+            "category": "Category",
+            "inquiry": "Inquiry",
+            "create-date": "Date created",
+            "answer": "Answer Content",
+            "search": "Search",
+            "sort": "Sort",
+            "start-date": "Start Date",
+            "end-date": "End Date",
+            "all-read": "Retrieve all records",
+            "date-read": "Retrieve records that match the start and end dates",
+            "period-search": "Search",
+            "status": "Response Status"
+        }
+    },
+    "detail": {
+        "meta-title": "Inquiry History | ANRISK",
+        "title": "Inquiry History",
+        "inquiry-tooltip": "Here is inquiry",
+        "answer": "Answer",
+        "answer-tooltip": "Here is the answer"
+    },
+    "modal": {
+        "noti": "Notification",
+        "generate-success": "A ticket has been created.",
+        "confirm": "Confirm"
+    }
+}

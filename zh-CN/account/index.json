@@ -1,0 +1,159 @@
+{
+    "home": "HOME",
+    "meta-title": "Manage Accounts | ANRISK",
+    "title": "Manage Accounts",
+    "search": "Search",
+    "all-read": "Reset",
+    "add-button": "Add Account",
+    "table": {
+        "index": "Index",
+        "access": "Access Rights",
+        "company": "Type",
+        "updatedDate": "Last access date",
+        "createdDate": "Creation date",
+        "modify": "Update",
+        "more": "more",
+        "search-info": "Please enter the value you want to search for."
+    },
+    "modal": {
+        "title": "Edit Account",
+        "add": "Add account",
+        "add-info": "Please select the company before creating a new account under the company. If the company cannot be found, please register the company first.",
+        "select-company": "Search company",
+        "select-company-info": "Please enter the name of the company you would like to find. If the company does not exist, register the company below in ‘Register new company’.",
+        "select-company-error": "Please select a company.",
+        "company-name": "Client name",
+        "firstStep": {
+            "title": "Personal Information",
+            "description": "Please enter the information of the person in charge. The information can be edited after the account has been created.",
+            "repr": "Same as main contact information",
+            "pic": "Same as settlement manager information",
+            "new": "+ Add new account"
+        },
+        "secondStep": {
+            "title": "Email notifications",
+            "description": "You can choose which notifications you would like to receive via email. It is recommended that you receive all notifications from the platform as you will be notified of important updates. This setting can be changed after the account has been created.",
+            "general": "General",
+            "general-info": "Nofitications related to your account",
+            "general-radio": "Receive emails",
+            "report": "Report",
+            "report-info": "Notifications related to analysis status and report generation.",
+            "report-radio": "Receive emails"
+        },
+        "required": "required",
+        "optional": "optional",
+        "back": "Go back",
+        "next": "Next",
+        "next-step": "Next",
+        "data-not-found": "There is no data to display.",
+        "add-company": "Register new company",
+        "add-company-info": "Please upload the required files to request a new company registration. After the request has been submitted an email will be sent after the review has been completed.",
+        "add-company-button": "Register client",
+        "search-belong": "Search Company",
+        "info": "Edit account",
+        "modify-info": "Edit account information",
+        "report-info": "We will send you notifications when analysis is complete, report is generated, report is scheduled to be deleted, and report has been deleted.",
+        "admin-setting": "Make admin",
+        "report-alarm": "Receive report notification emails (optional)",
+        "general-info": "We will send you inquiries and account-related notifications.",
+        "email-alarm": "Receive general notification emails (optional)",
+        "add-complete": "New account has been registered",
+        "add-complete-info": [
+            "An email has been sent regarding the initial log in process.",
+            "Please email us at",
+            "hello@taloscorp.io",
+            "if you did not receive an email."
+        ],
+        "add-more": "Register another account",
+        "go-to-page": "Go to ‘Manage Accounts’ page",
+        "modify": "Update",
+        "modify-save": "Save changes",
+        "status": {
+            "title": "Account Status",
+            "info": [
+                "Deactivating the account means that the user can no longer access the platform.",
+                "Reseting the password will send an email to the user to reset a new password.",
+                "Once you click ‘logout’, the user will be logged out of the platform immediately."
+            ],
+            "radio": "Activate account"
+        },
+        "duplicate": "Check availability",
+        "duplicate-invalid": "The ID is not available",
+        "duplicate-success": "The ID is available and can be used.",
+        "duplicate-check": "Please check if the ID is availble to use",
+        "name": "Name",
+        "id": "ID",
+        "phone": "Contact number",
+        "email": "Email",
+        "belong": "Affiliated company",
+        "dist": "Distributor",
+        "manager": "Manager",
+        "customer": "Client",
+        "add-belong": "Add new client",
+        "alarm-setting": "Notification settings",
+        "general": "General",
+        "report": "Report",
+        "inactive-info": "Disable account status.",
+        "active-info": "Activate your account status.",
+        "active": "Active",
+        "inactive": "Deactivated",
+        "first": "Account created",
+        "password-reset-info": "Reset your account password.",
+        "password-reset": "Reset password",
+        "logout-info": "Log out of your account.",
+        "logout": "Logout",
+        "try-again": "Please try again later.",
+        "id-exist": "This ID is already taken. Please register with a different ID.",
+        "email-exist": "This email address is already in use. Please register with a different email.",
+        "logout-success": "The account has been logged out",
+        "logout-failure": "Logout failed",
+        "logout-failure-info": "Logout failed. Please try again later.",
+        "password-reset-success": "Password has been reset",
+        "password-reset-failure": "Password reset failed",
+        "password-reset-failure-info": "Password reset failed. Please try again later.",
+        "status-activate": "The account has been activated",
+        "status-inactivate": "The account has been deactivated",
+        "status-failure": "Account status change failed",
+        "status-failure-info": "Failed to change account status. Please try again later.",
+        "create-success": "Account creation was successful.",
+        "update-success": "Your account has been successfully edited.",
+        "noti": "Notification",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "create": {
+            "success": "Account creation was successful.",
+            "failure": "Account creation failed."
+        },
+        "update": {
+            "info": "Would you like to save your modifications?",
+            "confirm": "Update"
+        },
+        "password-reset-confirm": "Would you like to reset the password for this account?",
+        "logout-confirm": "Would you like to log out of your account?",
+        "inactive-confirm": "Would you like to change this account to inactive status?",
+        "active-confirm": "Would you like to change this account to active status?",
+        "form": {
+            "id": {
+                "matches": "Spaces and special characters cannot be entered.",
+                "min": "Please enter at least 3 characters.",
+                "max": "The max character limit is 20.",
+                "required": "Please enter an ID."
+            },
+            "name": {
+                "min": "Please enter at least 2 characters.",
+                "max": "The max character limit is 20.",
+                "required": "Please enter your name."
+            },
+            "email": {
+                "matches": "Please check the email format.",
+                "min": "Please enter at least 3 characters.",
+                "required": "Please enter your email address."
+            },
+            "phone": {
+                "required": "Please enter your contact information.",
+                "matches": "Please enter the correct contact number."
+            },
+            "belong": "Please select your belong."
+        }
+    }
+}

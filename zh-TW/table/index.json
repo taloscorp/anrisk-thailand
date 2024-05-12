@@ -1,0 +1,38 @@
+{
+    "idx": {
+        "title": "指數",
+        "id": "身份",
+        "name": "姓名",
+        "belong": "公司",
+        "inactive": "不活躍的",
+        "first": "等待首次登入",
+        "active": "積極的"
+    },
+    "access": {
+        "name": "權威",
+        "dist": "分銷經理",
+        "manager": "主管",
+        "user": "顧客"
+    },
+    "companyType": {
+        "name": "機構類型",
+        "dist": "經銷商",
+        "hosp": "醫院",
+        "non-hosp": "非醫院",
+        "etc": "etc"
+    },
+    "more": "更多的",
+    "no-data": "沒有什麼可顯示的。",
+    "sales": {
+        "actual-payment": "實際付款",
+        "own-contract": "自己的合約",
+        "customer-count": "顧客數量",
+        "analysis-count": "分析案例數",
+        "average-price": "平均價格",
+        "sales": "銷售量",
+        "dist-contract": "經銷協議",
+        "total": "求和",
+        "free-trial": "免費試用",
+        "all-total": "總和"
+    }
+}

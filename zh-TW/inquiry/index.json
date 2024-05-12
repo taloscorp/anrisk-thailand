@@ -1,0 +1,69 @@
+{
+    "home": "首頁",
+    "read-success": "檢索成功",
+    "read-failure": "檢索失敗",
+    "read-error": "請稍後再試",
+    "create": {
+        "meta-title": "提出問題 | ANRISK",
+        "title": "提出問題",
+        "sub-title": "提問",
+        "header": "提問",
+        "category": "類別",
+        "category-tooltip": "請選擇一個類別",
+        "account": "帳號",
+        "payment": "付款",
+        "report": "報告",
+        "proposal": "提案",
+        "withdrawal": "退出",
+        "other": "其他",
+        "contents": "詢問詳細內容",
+        "contents-tooltip": "請輸入您想詢問的詳細內容",
+        "button": "寫入",
+        "button-tooltip": "寫下提問內容",
+        "failure": "寫入提問內容失敗",
+        "error": "寫入提問內容失敗，請稍後再試",
+        "min": "請輸入至少3個字元",
+        "max": "請輸入最多200個字元",
+        "required": "請輸入您的詢問內容"
+    },
+    "read": {
+        "meta-title": "提問 | ANRISK",
+        "title": "提問",
+        "create-button": "寫下您的詢問內容",
+        "table": {
+            "options": ["由數字小到大排序", "由數字大到小排序", "由字母順序排序分類", "由字母倒敘排序分類", "由字母順序排序問題內容", "由字母倒敘排序問題內容", "由字母順序排序答案", "由字母倒敘排序答案", "By the latest creation date", "從舊到新"],
+            "start-date-error": "起始日期請勿超過截止日期",
+            "end-date-error": "截止日期請勿早於起始日期",
+            "unanswer": "未回答",
+            "success": "已回答",
+            "success-description": "已發布回應",
+            "select": "選擇",
+            "select-tooltip": "請選擇條件並試著搜尋",
+            "index": "編號",
+            "category": "類別",
+            "inquiry": "詢問",
+            "create-date": "問診日期",
+            "answer": "回覆內容",
+            "search": "搜尋",
+            "sort": "排序",
+            "start-date": "開始日期",
+            "end-date": "截止日期",
+            "all-read": "檢索全部紀錄",
+            "date-read": "檢索符合開始與截止時間的紀錄",
+            "period-search": "搜尋",
+            "status": "回復狀態"
+        }
+    },
+    "detail": {
+        "meta-title": "詢問紀錄 | ANRISK",
+        "title": "詢問紀錄",
+        "inquiry-tooltip": "您可在這提問",
+        "answer": "答案",
+        "answer-tooltip": "這是答案"
+    },
+    "modal": {
+        "noti": "通知",
+        "generate-success": "已製作一張票券",
+        "confirm": "確認"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "idx": {
+        "title": "番号",
+        "id": "ユーザーID",
+        "name": "名前",
+        "belong": "所属名",
+        "inactive": "非アクティブ（停止）",
+        "first": "最初の接続待機",
+        "active": "ノーマル"
+    },
+    "access": {
+        "title": "特権",
+        "dist": "流通管理者",
+        "manager": "マネージャー",
+        "user": "顧客会社"
+    },
+    "companyType": {
+        "title": "機関タイプ",
+        "dist": "流通会社",
+        "hosp": "病院",
+        "non-hosp": "非病院",
+        "etc": "その他"
+    },
+    "more": "もっと見る",
+    "no-data": "表示する内容がありません。",
+    "sales": {
+        "actual-payment": "実決済",
+        "own-contract": "自己契約",
+        "customer-count": "顧客数",
+        "analysis-count": "分析件数",
+        "average-price": "平均単価",
+        "sales": "売上",
+        "dist-contract": "流通契約",
+        "total": "合計",
+        "free-trial": "無料体験",
+        "all-total": "全体合計"
+    }
+}

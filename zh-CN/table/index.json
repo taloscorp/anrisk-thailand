@@ -1,0 +1,38 @@
+{
+    "idx": {
+        "title": "index",
+        "id": "id",
+        "name": "name",
+        "belong": "company",
+        "inactive": "inactive",
+        "first": "waiting for first login",
+        "active": "active"
+    },
+    "access": {
+        "name": "authority",
+        "dist": "distribution manager",
+        "manager": "manager",
+        "user": "customer"
+    },
+    "companyType": {
+        "name": "institution type",
+        "dist": "distributor",
+        "hosp": "hospital",
+        "non-hosp": "non-hospital",
+        "etc": "etc"
+    },
+    "more": "more",
+    "no-data": "There is nothing to display.",
+    "sales": {
+        "actual-payment": "Actual payment",
+        "own-contract": "Direct contract",
+        "customer-count": "Number of clients",
+        "analysis-count": "Number of analysis cases",
+        "average-price": "Average price",
+        "sales": "Revenue",
+        "dist-contract": "Distributor contract",
+        "total": "Total",
+        "free-trial": "Free trial",
+        "all-total": "Grand total"
+    }
+}

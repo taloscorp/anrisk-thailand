@@ -1,0 +1,81 @@
+{
+    "home": "홈",
+    "read-success": "조회 성공",
+    "read-failure": "조회 실패",
+    "read-error": "잠시 후에 다시 시도해 주세요.",
+    "create": {
+        "meta-title": "문의사항 작성 | ANRISK",
+        "title": "문의사항 작성",
+        "sub-title": "문의 내역",
+        "header": "문의사항",
+        "category": "카테고리",
+        "category-tooltip": "카테고리를 선택해주세요.",
+        "account": "계정",
+        "payment": "결제",
+        "report": "보고서",
+        "proposal": "제안",
+        "withdrawal": "탈퇴",
+        "other": "기타",
+        "contents": "문의 내용",
+        "contents-tooltip": "문의 내용을 입력해주세요.",
+        "button": "보내기",
+        "button-tooltip": "티켓을 생성합니다.",
+        "failure": "문의사항 생성 실패",
+        "error": "문의사항 생성 실패. 잠시 후에 다시 시도해 주세요.",
+        "min": "최소 3자리 이상 입력해주세요.",
+        "max": "최대 200자리 이하로 입력해주세요.",
+        "required": "문의 내용을 입력해주세요."
+    },
+    "read": {
+        "meta-title": "문의 내역 | ANRISK",
+        "title": "문의 내역",
+        "create-button": "문의사항 작성",
+        "table": {
+            "options": [
+                "일련번호순 (오름차순)",
+                "일련번호순 (내림차순)",
+                "카테고리순 (가나다)",
+                "카테고리순 (하파타)",
+                "질문내용순 (가나다)",
+                "질문내용순 (하파타)",
+                "답변순 (가나다)",
+                "답변순 (하파타)",
+                "생성일 (최신순)",
+                "생성일 (오래된순)"
+            ],
+            "start-date-error": "시작날짜가 종료날짜를 초과할 수 없습니다.",
+            "end-date-error": "종료날짜가 시작날짜 빠를 수 없습니다.",
+            "unanswer": "미답변",
+            "unanswer-description": "답변이 아직 없습니다.",
+            "success": "답변완료",
+            "success-description": "답변이 달렸습니다.",
+            "select": "조건",
+            "select-tooltip": "조건 선택 후 검색해보세요.",
+            "index": "번호",
+            "category": "카테고리",
+            "inquiry": "문의내용",
+            "create-date": "문의일",
+            "answer": "답변내용",
+            "search": "검색",
+            "sort": "정렬",
+            "start-date": "시작 날짜",
+            "end-date": "종료 날짜",
+            "all-read": "초기화",
+            "date-read": "기간내역을 조회합니다.",
+            "period-search": "기간검색",
+            "status": "답변상태"
+        }
+    },
+    "detail": {
+        "meta-title": "문의 사항 | ANRISK",
+        "title": "문의 사항",
+        "inquiry-tooltip": "문의 내용 입니다.",
+        "answer": "답변",
+        "answer-tooltip": "답변 내용 입니다."
+    },
+    "modal": {
+        "noti": "알림",
+        "generate-success": "티켓이 생성되었습니다.",
+        "confirm": "확인"
+    }
+}

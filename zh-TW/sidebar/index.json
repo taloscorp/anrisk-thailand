@@ -1,0 +1,33 @@
+{
+    "title": {
+        "risk-analysis": "風險分析",
+        "client": "客戶服務",
+        "sales": "商業管理",
+        "support": "幫助",
+        "setting": "環境"
+    },
+    "subheader": {
+        "risk-analysis": "分析需求",
+        "risk-analysis-management": "管理報告",
+        "account-management": "帳號管理",
+        "company-management": "使用者管理",
+        "sales-stats": "分析報告統計",
+        "company-stats": "客戶統計",
+        "company-invoice": "稅單",
+        "user-manual": "使用手冊",
+        "resources": "資源中心",
+        "inquiry": "問診",
+        "mypage": "我的頁面",
+        "security": "安全",
+        "logout": "登出",
+        "policy": "隱私權政策",
+        "admin": {
+            "report-sample": "Manage Samples"
+        }
+    },
+    "access": {
+        "dist": "分銷經理",
+        "manager": "主管",
+        "user": "顧客"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "noti-popover": {
+        "noti": "通知",
+        "noti-none": "通知はありません。",
+        "all-read": "すべての通知を読みました。",
+        "message": {
+            "extension": "延長しない場合、5分後にログアウトされます。",
+            "complete": "レポート分析が完了しました。",
+            "delete": "レポートの削除が完了しました。",
+            "expire": "レポートの有効期限が切れて削除されました。",
+            "willExpired": "レポートはすぐに期限切れになります。"
+        }
+    },
+    "account-popover": {
+        "my-info": "私の情報",
+        "my-page": "マイページ",
+        "signout": "ログアウト",
+        "dist": "流通管理者",
+        "manager": "マネージャー",
+        "user": "顧客会社"
+    },
+    "error": "しばらくしてからもう一度お試しください。",
+    "extension-popover": {
+        "noti": "通知",
+        "confirm": "延長",
+        "cancel": "維持"
+    }
+}

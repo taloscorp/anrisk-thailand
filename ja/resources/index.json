@@ -1,0 +1,27 @@
+{
+    "meta-title": "資料室 | ANRISK",
+    "title": "資料室",
+    "home": "ホーム",
+    "intro": {
+        "title": "サービス紹介書",
+        "resource": "https://kr.object.ncloudstorage.com/ncp-anrisk-public-storage/anrisk-frontend/resources/intro_en.pdf",
+        "image": "https://kr.object.ncloudstorage.com/ncp-anrisk-public-storage/anrisk-frontend/resources/thumnails/intro_en.png"
+    },
+    "intro-patient": {
+        "title": "患者向けサービス紹介書",
+        "resource": "https://kr.object.ncloudstorage.com/ncp-anrisk-public-storage/anrisk-frontend/resources/intro_patient_en.pdf",
+        "image": "https://kr.object.ncloudstorage.com/ncp-anrisk-public-storage/anrisk-frontend/resources/thumnails/intro_patient_en.png"
+    },
+    "medical-staff": {
+        "title": "医療従事者向けテキスト",
+        "resource": "/static/resources/medicalStaff_ko.pdf",
+        "image": "/static/resources/thumbnail/anrisk_medicalStaff.png"
+    },
+    "sample-report": {
+        "title": "サンプルレポート",
+        "resource": "https://kr.object.ncloudstorage.com/ncp-anrisk-public-storage/anrisk-frontend/resources/sample_ja.pdf",
+        "image": "https://kr.object.ncloudstorage.com/ncp-anrisk-public-storage/anrisk-frontend/resources/thumnails/sample_ja.png"
+    },
+    "agree-form": "お客様用のサービス利用同意書",
+    "download": "ダウンロード"
+}

@@ -1,0 +1,27 @@
+{
+    "meta-title": "資源中心 | ANRISK",
+    "title": "資源中心",
+    "home": "首頁",
+    "intro": {
+        "title": "服務介紹文件",
+        "resource": "https://kr.object.ncloudstorage.com/ncp-anrisk-public-storage/anrisk-frontend/resources/intro_en.pdf",
+        "image": "https://kr.object.ncloudstorage.com/ncp-anrisk-public-storage/anrisk-frontend/resources/thumnails/intro_en.png"
+    },
+    "intro-patient": {
+        "title": "患者服務介紹文件",
+        "resource": "https://kr.object.ncloudstorage.com/ncp-anrisk-public-storage/anrisk-frontend/resources/intro_patient_en.pdf",
+        "image": "https://kr.object.ncloudstorage.com/ncp-anrisk-public-storage/anrisk-frontend/resources/thumnails/intro_patient_en.png"
+    },
+    "medical-staff": {
+        "title": "醫療人員訓練資料",
+        "resource": "/static/resources/medicalStaff_en.pdf",
+        "image": "/static/resources/thumbnail/anrisk_medicalStaff.png"
+    },
+    "sample-report": {
+        "title": "樣本報告",
+        "resource": "https://kr.object.ncloudstorage.com/ncp-anrisk-public-storage/anrisk-frontend/resources/sample_zh-TW.pdf",
+        "image": "https://kr.object.ncloudstorage.com/ncp-anrisk-public-storage/anrisk-frontend/resources/thumnails/sample_zh-TW.png"
+    },
+    "agree-form": "患者服務同意書",
+    "download": "下載"
+}

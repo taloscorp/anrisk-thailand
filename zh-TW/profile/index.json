@@ -1,0 +1,138 @@
+{
+    "title": "個人資料 | ANRISK",
+    "header": "個人資料",
+    "home": "首頁",
+    "message": {
+        "read-failure": "檢索資料失敗",
+        "error": "請稍後再試"
+    },
+    "taps": {
+        "general": "一般",
+        "security": "安全性",
+        "noti": "通知配置"
+    },
+    "general": {
+        "title": "個人資料",
+        "image-info": "您無法更改個人資料的照片",
+        "form": {
+            "name": "姓名",
+            "belong": "機構(公司)",
+            "business-number": "商業號碼",
+            "email": "電子郵件",
+            "phone": "電話號碼",
+            "address": "住址",
+            "payment-status": {
+                "case": "每筆交易付款方式",
+                "monthly": "月付",
+                "free-trial": "免費版"
+            },
+            "payment-method": "付款方式",
+            "expire-date": "過期日"
+        },
+        "message": {
+            "name": {
+                "required": "請輸入您的名字",
+                "min": "請輸入至少兩個字",
+                "max": "請輸入至多十個字"
+            },
+            "belong": {
+                "required": "請輸入您的機構(公司)"
+            },
+            "business-number": {
+                "required": "請輸入您的商業註冊號碼",
+                "valid": "請輸入您的10位數位商業註冊號碼"
+            },
+            "email": {
+                "required": "請輸入您的電子郵件位址",
+                "valid": "請輸入有效的電子郵件位址",
+                "error": "這個電子郵件已被使用"
+            },
+            "phone": {
+                "required": "請輸入您的電話號碼",
+                "valid": "請輸入有效的電話號碼"
+            },
+            "address": {
+                "required": "請輸入您的地址"
+            },
+            "update-info": "資訊更新中"
+        }
+    },
+    "belong": {
+        "ko": "韓國",
+        "en": "美國",
+        "ja": "日本",
+        "zhTW": "台灣",
+        "zhCN": "中國",
+        "title": "隸屬資訊",
+        "companyType": "機構類型",
+        "contractDate": "合約日期",
+        "country": "所屬國家",
+        "name": "所屬單位名稱",
+        "companyNumber": "商業號碼",
+        "manager": "負責人姓名",
+        "phone": "接觸",
+        "email": "電子郵件",
+        "unitPrice": "單價",
+        "paymentType": "付款方式",
+        "address": "地址"
+    },
+    "security": {
+        "ip": {
+            "title": "取得IP配置",
+            "button": "檢查我的IP位址",
+            "access-ip": "同意這個IP位址",
+            "min": "請輸入IP位址以獲取登錄同意"
+        },
+        "password": {
+            "title": "密碼配置",
+            "password": "密碼",
+            "password-confirmation": "確認密碼",
+            "password-confirmation-message": "請再次輸入您的密碼",
+            "password-update-message": "密碼更新中",
+            "min": "結合大小寫、數字、特殊符號創立一個至少8位元的密碼",
+            "incorrect-password": "密碼輸入錯誤",
+            "required": "請輸入您的密碼",
+            "button": "更新"
+        },
+        "api-key": {
+            "title": "使用者界面金鑰配置",
+            "api-key": "使用者界面金鑰",
+            "api-key-info": "您可以查看系統生成的使用者界面金鑰",
+            "message": {
+                "once-info": "已生成的使用者界面金鑰只會顯示一次",
+                "lost-info": "如果您遺失金鑰，需要重新生成",
+                "inquiry-info": "更多細節，請聯絡開發團隊",
+                "generate-modal": "如果您點擊生成鍵，新的金鑰會產生\n已存在的使用者金鑰將不可在使用"
+            },
+            "generate-api-key": "產生使用者金鑰中",
+            "button": "生成",
+            "copy": "複製",
+            "cancle": "取消"
+        },
+        "message": {
+            "ip-error": "無法檢索IP資訊",
+            "api-key": "使用者界面金鑰生成完畢",
+            "clipboard": "複製到剪貼簿",
+            "clipboard-failure": "複製到剪貼簿失敗"
+        }
+    },
+    "noti": {
+        "general": {
+            "title": "一般",
+            "description": "正在收取一般通知",
+            "email-noti": "電子郵件通知"
+        },
+        "report": {
+            "title": "報告",
+            "description": "透過電子郵件收取報告通知",
+            "report-noti": "報告通知"
+        },
+        "modal": {
+            "update-success": "修改資訊完成",
+            "update-error": "修改資訊失敗",
+            "confirm": "確認",
+            "password-changed": "* 請用修改後密碼登入",
+            "logout-info": "* 點擊確認已登出"
+        }
+    }
+}

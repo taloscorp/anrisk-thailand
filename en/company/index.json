@@ -1,0 +1,250 @@
+{
+    "home": "HOME",
+    "management": {
+        "meta-title": "Manage Clients | ANRISK",
+        "title": "Manage Clients",
+        "search": "Search client name",
+        "my": "My Clients",
+        "all": "All Clients",
+        "add-button": "Add client",
+        "filter": {
+            "reset": "Reset",
+            "all": "All",
+            "label": {
+                "country": "Country"
+            },
+            "buttonList": {
+                "country": {
+                    "ko": "Korea",
+                    "ja": "Japan",
+                    "india": "India"
+                }
+            },
+            "hoverInfo": {
+                "in-progress": "In progress",
+                "in-progress-info": "Uploaded attachment files and input information to register client. Review is in progress",
+                "rejection": "Rejection",
+                "rejection-info": "Registration has been rejected due to missing information (re-registration is possible).",
+                "in-negotiation": "In negotiation",
+                "in-negotiation-info": "Review has been completed and is currently in negotiation with client.",
+                "drafting": "End of negotiation",
+                "drafting-info": "Negotiation has been completed and is in the pre-contract phase.",
+                "uncontracted": "Drafting",
+                "uncontracted-info": "Negotiation has been completed but no contract has been agreed upon.",
+                "contracted": "Contracted",
+                "contracted-info": "Negotiation has been completed and a contract has been signed. An account on ANRISK™ has been created.",
+                "end-contract": "Uncontracted",
+                "end-contract-info": " Contract period has been lapsed and there has been no follow-up with extending the contract period (Once the contract period has lapsed, other distributors are able to register the client)."
+            }
+        },
+        "info": "Hospitals that have been registered are currently in contract with other distributors so please avoid overlaping contracts.",
+        "all-tooltip": "Only hospitals are displayed.",
+        "table": {
+            "name": "Name",
+            "managerName": "Manager name",
+            "mainContact": "Main Contact",
+            "clientContact": "Client Contact Details",
+            "phone": "Phone",
+            "email": "Email",
+            "companyType": "Company Type",
+            "paymentType": "Payment Type",
+            "unitPrice": "Price per analysis",
+            "createdDate": "Creation Date",
+            "status": "Contract Status",
+            "address": "Address",
+            "modify": "Edit",
+            "more": "more",
+            "no-data": "There are no registered clients."
+        }
+    },
+    "detail": {
+        "client": "Client",
+        "more": "Details",
+        "modify": "Edit",
+        "update": "Change",
+        "save": "Save changes",
+        "request": "Registration review",
+        "info": {
+            "title": "Client Information",
+            "type": "Insitution type",
+            "name": "Institution name",
+            "country": "Country",
+            "ko": "Korea",
+            "en": "USA",
+            "ja": "Japan",
+            "zhTW": "Taiwan",
+            "zhCN": "China",
+            "india": "India",
+            "number": "Business registration number",
+            "address": "Address",
+            "dist": "Distributor",
+            "hosp": "Hospital",
+            "non-hosp": "Non-Hospital",
+            "etc": "Etc"
+        },
+        "contract": {
+            "title": "Contract Details",
+            "description": "When registering a new customer company, the status will be 'registration review in progress'. Once the review is approved, the status changes to 'Negotiating' and the unit price and free trial date entered at the time of registration are displayed. If there are any changes to your contract status, you can update the status by clicking the 'Change' button.",
+            "status": "Status",
+            "date": "Upated Date",
+            "monthly": "Monthly",
+            "free-trial": "Free trial",
+            "expire-date": "expiration date",
+            "account": "Updated by",
+            "account-talos": "This is a Talos internal account.",
+            "payment": "Payment type",
+            "payment-title": "Payment information",
+            "unitPrice": "Price per analysis",
+            "modal": {
+                "title": "Update Contract Details",
+                "description": "If there are changes to your contract information, you can edit that information. Please check once more before saving to ensure that the information you wish to edit is correct.",
+                "status": "Contract Status",
+                "expire-date": "Expiration date",
+                "in-negotiation": "In negotiation",
+                "contracted": "Contracted",
+                "end-contract": "Uncontracted",
+                "reason": "Reason",
+                "missing-card": "Missing business card",
+                "missing-files": "Missing supporting files",
+                "missing-info": "Incorrect information input",
+                "etc": "Etc"
+            }
+        },
+        "files": {
+            "title": "Supporting files",
+            "description": "This is the proof file uploaded when registering as a customer. You can check the image by clicking the file name.",
+            "not-found": "There is no uploaded supporting file"
+        },
+        "manager": {
+            "title": "Person in charge information",
+            "agency": "Distributor",
+            "rep": "Insitution",
+            "pic": "Payment",
+            "name": "Name",
+            "phone": "Phone",
+            "email": "Email",
+            "modal": {
+                "title": "Edit Person in chart information",
+                "description": [
+                    "Required fields are marked ",
+                    ". If you do not have or do not know the information of the person in charge of settlement, please leave it blank."
+                ]
+            }
+        }
+    },
+    "create": {
+        "title": "Register New Client",
+        "description": "Please upload file attachments and fill out the personal information form to request a registration review for your client. A notification email will be sent once the review has been completed.",
+        "required": "(Required items are marked with *)",
+        "optional": "(optional)",
+        "back": "Back",
+        "next": "Next",
+        "skip": "Skip",
+        "request": "Register client",
+        "status-info": "Contract status will be updated after review is complete.",
+        "modify": "Edit",
+        "modify-save": "Save changes",
+        "error": "This is client information that already exists.",
+        "try-again": "Please try again later.",
+        "create-failure": "The client registration request failed.",
+        "name": "Please enter the client name.",
+        "number": {
+            "required": "Please enter your business registration number.",
+            "matches": "Please enter the correct business registration number."
+        },
+        "managerName": "Please enter the name of the representative person in charge.",
+        "phone": {
+            "required": "Please enter your representative contact information.",
+            "matches": "Please enter correct contact information."
+        },
+        "email": {
+            "matches": "Please enter it in email format.",
+            "required": "Please enter your main email address."
+        },
+        "address": "Please enter your address.",
+        "detail-address": "Please enter your detailed address.",
+        "unit-price": "Please enter the price per analysis.",
+        "unit-price-error": "Only numbers can be entered for the price per analysis.",
+        "distributed": "Please select distribution information.",
+        "status": "Please select your contract status.",
+        "type": "Please select an institution type.",
+        "date-error": "It cannot be earlier than today's date.",
+        "update-success": "The modification has been completed.",
+        "update-failure": "The request to modify the client company failed.",
+        "request-again": "We are requesting a re-examination of our client registration with this information.",
+        "request-again-success": "Your request to reexamine your client registration has been completed.",
+        "request-again-failure": "Your request for reexamination failed.",
+        "status-ing": "Would you like to approve this client registration?",
+        "status-ing-success": "Client registration has been approved.",
+        "status-reject": "Do you want to refuse registration of this client?",
+        "status-reject-success": "Client registration has been rejected.",
+        "files": {
+            "title": "Upload attachment files",
+            "info": [
+                "Please attach files as evidence of a meeting that has taken place regarding the implementation of ANRISK™.",
+                "(required)",
+                "1. Photo of the business card of the person in charge from the hospital or the distributor company.",
+                "2. Photo of an ANRISK™ sales meeting",
+                "- Please make sure that the date of the meeting and hospital name are visible in the photo. Faces do not have to be visible.",
+                "- Screen capture of messages and or email related to the arrangement of a meeting date.",
+                "- Screen capture of follow-up email after the meeting has taken place.",
+                "Other supporting photos, documents, etc. regarding ANRISK guidance",
+                "(optional)"
+            ],
+            "required": "Please upload the required supporting files.",
+            "dropzone": [
+                "Drag or click the file here",
+                "Please select the file you wish to upload."
+            ]
+        },
+        "info": {
+            "title": "Client Information",
+            "managerInfo": "Person in charge information",
+            "picInfo": "Settlement manager information",
+            "managerName": "Name",
+            "managerPhone": "Contact number",
+            "managerEmail": "Email",
+            "picName": "Name",
+            "picPhone": "Contact number",
+            "picEmail": "Email",
+            "phone": {
+                "matches": "Please enter correct contact information."
+            },
+            "email": {
+                "matches": "Please enter it in email format."
+            },
+            "address": {
+                "search": "Search address",
+                "required": "Please enter address."
+            },
+            "unit-price": "Please enter the price per analysis.",
+            "unit-price-error": "Only numbers can be entered for the price per analysis."
+        },
+        "contract": {
+            "title": "Contract Details",
+            "unitPrice": "Price per analysis",
+            "status": "Status",
+            "expire-date": "Expiration date"
+        },
+        "confirm": {
+            "info": "Have you confirmed that the information you are registering is correct?",
+            "warning": "If sales are not generated within 6 months of registering a client, you may lose exclusive rights to that client.",
+            "cancel": "cancel",
+            "confirm": "Register",
+            "go-back": "Go back",
+            "description": [
+                "Other companies will not be permitted to register the client that you are registering. Thank you for your contributions and we look forward to a great continued partnership.",
+                "If no significant sales are produced within the next 6 months, other companies will be given the opportunity to register this client under their company.",
+                "Personal information other than client names, address, and registration dates (e.g. price per analysis) will not be disclosed to other companies."
+            ],
+            "sub-description": "Sensitive information (e.g. price per analysis, etc.) other than the registered client name, address, and registration date will not be disclosed to other companies.",
+            "create-success": [
+                "Your client has been registered.",
+                "Thank you for registering a new client. You will be notified via email after the registration has been reviewed (within 3 business days).",
+                "You will be able to create accounts once the registration has been reviewed and approved."
+            ],
+            "add-more": "Register another client",
+            "go-to-page": "Go to “Manage Clients” page"
+        }
+    }
+}

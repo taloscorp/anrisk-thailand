@@ -1,0 +1,132 @@
+{
+    "title": "마이페이지 | ANRISK",
+    "header": "마이페이지",
+    "home": "홈",
+    "message": {
+        "read-failure": "조회 실패",
+        "error": "잠시 후에 다시 시도해 주세요."
+    },
+    "taps": {
+        "general": "일반",
+        "security": "보안",
+        "noti": "알림 설정"
+    },
+    "general": {
+        "title": "계정 정보",
+        "image-info": "프로필 이미지는 변경 할 수 없습니다.",
+        "form": {
+            "name": "성함",
+            "belong": "소속(회사)",
+            "business-number": "사업자 번호",
+            "email": "이메일",
+            "phone": "연락처",
+            "address": "주소",
+            "payment-status": {
+                "case": "건별 결제",
+                "monthly": "월별 결제",
+                "free-trial": "무료 체험"
+            },
+            "payment-method": "결제 방식",
+            "expire-date": "무료 체험 만료일"
+        },
+        "message": {
+            "name": {
+                "required": "성함을 입력해주세요.",
+                "min": "최소 2자리 이상 입력해주세요.",
+                "max": "최대 10자리 이하로 입력해주세요."
+            },
+            "belong": {
+                "required": "소속(회사)를 입력해주세요."
+            },
+            "business-number": {
+                "required": "사업자 번호를 입력해주세요.",
+                "valid": "사업자번호를 숫자 10자리로 입력해주세요."
+            },
+            "email": {
+                "required": "이메일을 입력해주세요.",
+                "valid": "이메일 형식으로 입력해주세요.",
+                "error": "이미 사용중인 이메일 주소 입니다."
+            },
+            "phone": {
+                "required": "연락처를 입력해주세요.",
+                "valid": "올바른 핸드폰 번호를 입력해주세요."
+            },
+            "address": {
+                "required": "주소를 입력해주세요."
+            },
+            "update-info": "정보를 변경합니다."
+        }
+    },
+    "belong": {
+        "ko": "한국",
+        "en": "미국",
+        "ja": "일본",
+        "zhTW": "대만",
+        "zhCN": "중국",
+        "title": "소속 정보",
+        "companyType": "기관유형",
+        "contractDate": "계약일자",
+        "country": "소속국가",
+        "name": "소속명",
+        "companyNumber": "사업자번호",
+        "manager": "담당자명",
+        "phone": "연락처",
+        "email": "이메일",
+        "unitPrice": "단가",
+        "paymentType": "결제유형",
+        "address": "주소"
+    },
+    "security": {
+        "password": {
+            "title": "비밀번호 변경",
+            "password": "비밀번호",
+            "password-confirmation": "비밀번호 확인",
+            "password-confirmation-message": "비밀번호를 한번 더 입력해 주세요.",
+            "password-update-message": "비밀번호를 한번 더 입력해 주세요.",
+            "min": "영대소문자, 숫자, 특수문자를 조합하여 최소 8자리 이상",
+            "incorrect-password": "비밀번호가 일치하지 않습니다.",
+            "required": "비밀번호를 입력해주세요.",
+            "button": "변경"
+        },
+        "api-key": {
+            "title": "API KEY 설정",
+            "api-key": "API KEY",
+            "api-key-info": "생성 된 API KEY를 확인할 수 있습니다.",
+            "message": {
+                "once-info": "생성 된 API KEY는 한 번만 표시 된 후 향후 열람이 불가합니다.",
+                "lost-info": "키를 분실한 경우 생성을 통해 새로운 키를 발급해야 합니다.",
+                "inquiry-info": "자세한 사항은 개발팀으로 문의 바랍니다.",
+                "generate-modal": "생성 버튼을 누르면 새로운 API KEY가 생성되며,\n기존의 API KEY는 더이상 사용할 수 없습니다."
+            },
+            "generate-api-key": "API KEY를 생성합니다.",
+            "button": "생성",
+            "copy": "복사",
+            "cancle": "취소"
+        },
+        "message": {
+            "ip-error": "IP 정보를 불러올 수 없습니다.",
+            "api-key": "API KEY 생성 완료",
+            "clipboard": "클립보드에 복사되었습니다.",
+            "clipboard-failure": "클립보드 복사에 실패하였습니다."
+        }
+    },
+    "noti": {
+        "general": {
+            "title": "일반",
+            "description": "일반 알림을 발송합니다.",
+            "email-noti": "이메일 알림"
+        },
+        "report": {
+            "title": "보고서",
+            "description": "보고서 관련 알림을 메일로 받습니다.",
+            "report-noti": "보고서 관련 알림"
+        },
+        "modal": {
+            "update-success": "정보 변경이 완료되었습니다.",
+            "update-error": "정보 변경에 실패했습니다.",
+            "confirm": "확인",
+            "password-changed": "* 변경 된 비밀번호로 로그인 해주세요.",
+            "logout-info": "* 확인을 누르시면 로그아웃 됩니다."
+        }
+    }
+}

@@ -1,0 +1,311 @@
+{
+    "meta-title": "分析申請 | ANRISK",
+    "home": "首頁",
+    "sub-title": "風險分析",
+    "submit": "分析申請",
+    "request-setting": "報告設定",
+    "report-type": "檔案類型",
+    "file-option": "結果檔案配置選項",
+    "locale-setting": "語言設定",
+    "report-setting": "在請求分析之前，請選擇報告語言、文件格式或結果報告配置選項。",
+    "yes": "全部",
+    "no": "只有報告",
+    "excel": {
+        "title": "EXCEL文件分析",
+        "description": [
+            "請求分析時，只能上傳一份包含病患健康檢查結果資料的Excel檔案。如果您需要分析多個文件，可能會提出其他要求。",
+            "",
+            "",
+            "強烈建議您按照樣本表單輸入並上傳資料。"
+        ],
+        "header": {
+            "info": "請上傳包含患者健康檢查結果資料的Excel檔案或根據樣本表格輸入資料的檔案。",
+            "upload": "上傳EXCEL檔案",
+            "upload-tooltip": "請上傳您想要求分析的檔案",
+            "excel-file": "要求風險管理的EXCEL檔案範本"
+        },
+        "submit-tooltip": "請提交報告以利於分析",
+        "sample-download": "下載範本",
+        "sample-downlaod-tooltip": "您可以在這下載範本",
+        "sample-download-success": "範本表格下載成功",
+        "sample-download-failure": "範本表格下載失敗",
+        "sample-download-error": "範本表格下載失敗，請稍後再試",
+        "submit-error": "報告繳交失敗，請稍後再試",
+        "sample-form": "如何使用範本模板",
+        "sample-form-tooltip": "您可以閱覽報告範本的使用說明",
+        "dropzone": {
+            "title": "請選檔案",
+            "description": "將文件拖放到此處或點擊查找文件",
+            "delete-tooltip": "刪除"
+        }
+    },
+    "input": {
+        "title": "分析申請表格",
+        "form": {
+            "title": [
+                "資料輸入",
+                "家史",
+                "吸菸狀況"
+            ],
+            "info": [
+                "請直接輸入病患的健康檢查結果數據，點選底部的「風險分析」按鈕。",
+                "* 此欄位為必填輸入欄位。如果其他欄位沒有值，請將其留空。"
+            ],
+            "chart-number": "圖表編號",
+            "date": "日期",
+            "name": "姓名",
+            "age": "年齡",
+            "male": "男性",
+            "female": "女性",
+            "gender": "性別",
+            "height": "身高",
+            "weight": "體重",
+            "bpHigh": "收縮血壓",
+            "bpLwst": "舒張血壓",
+            "waist": "腰圍",
+            "blds": "血糖",
+            "totChole": "總膽固醇",
+            "triglyceride": "三酸甘油脂",
+            "hdlChole": "高密度脂蛋白-膽固醇",
+            "ldlChole": "低密度脂蛋白-膽固醇",
+            "hmg": "血紅素",
+            "creatinine": "血清肌酸酐",
+            "sgotAst": "冬胺酸轉胺酶",
+            "sgptAlt": "丙胺酸轉胺酶",
+            "gammaGtp": "丙麩胺醯氨轉酸酶",
+            "fmlyApopPatienYn": "家族中風史",
+            "fmlyHdisePatienYn": "家族高血壓史",
+            "fmlyHprtsPatienYn": "家族心血管疾病史",
+            "fmlyDiabmlPatienYn": "家族糖尿病史",
+            "smkStatTypeRspsCd": "吸煙狀況",
+            "unknown": "未知",
+            "yes": "是",
+            "no": "否",
+            "non-smoker": "無吸煙",
+            "former-smoker": "曾吸煙",
+            "current-smoker": "吸煙",
+            "delete-all": "刪除全部"
+        },
+        "message": {
+            "update-success": "修改完成",
+            "delete-success": "刪除完成",
+            "name": "請輸入您的姓名",
+            "age": {
+                "required": "請輸入您的年齡",
+                "error": "年齡須在20到99歲之間."
+            },
+            "height": {
+                "required": "請輸入您的身高",
+                "error": "身高須在101到250之間"
+            },
+            "weight": {
+                "required": "請輸入您的體重",
+                "error": "您的體重須在26到200之間"
+            },
+            "bpHigh": {
+                "required": "請輸入您的收縮血壓",
+                "error": "收縮壓須在70到300之間"
+            },
+            "bpLwst": {
+                "required": "請輸入您的舒張血壓",
+                "error": "舒張壓須在36到200之間"
+            },
+            "waist": "腰圍須在51到299之間",
+            "blds": "血糖須在26到999之間",
+            "totChole": "總膽固醇須在26到999之間",
+            "triglyceride": "三酸甘油脂須在1到9999之間",
+            "hdlChole": "高密度脂蛋白-膽固醇須在1到999之間",
+            "ldlChole": "低密度脂蛋白-膽固醇須在1到999之間",
+            "hmg": "血紅素須在1到20.39之間",
+            "creatinine": "血清肌酸酐須在0.1到99之間",
+            "sgotAst": "血清冬胺酸轉胺酶須在1到9999之間",
+            "sgptAlt": "血清丙胺酸轉胺酶須在1到9999之間",
+            "gammaGtp": "麩胺轉酸酵素須在1到9999之間",
+            "special-char-error": "無法輸入特殊符號"
+        },
+        "info": "分析過程只會使用被選擇表格中的資訊",
+        "case": "詳細說明",
+        "add-case": "儲存",
+        "modify-case": "更新",
+        "add-info": "於申請分析前請先儲存",
+        "add-success": "添加成功",
+        "modify-success": "修改完成",
+        "submit-tooltip": "申請分析報告",
+        "error": "請稍後再試",
+        "delete-success": "成功完成刪除",
+        "delete-error": "刪除失敗，請稍後再試",
+        "non-check": "請選擇欲分析檔案",
+        "max-length": "您最多可以輸入10組數據 \n 請刪除一些現有數據並添加新的",
+        "all-delete-confirm": "您確定要刪除全部數據?",
+        "all-delete-success": "全部數據都已成功刪除",
+        "all-delete-failure": "刪除全部數據失敗，請稍後再試",
+        "request-error": "分析申請失敗，請稍後再試",
+        "confirm": "您確認數據無誤嗎?"
+    },
+    "image": {
+        "title": "影像分析",
+        "description": "請對包含患者健康檢查結果資料的問卷拍照並上傳。",
+        "upload": "上傳文件",
+        "info": [
+            "只能使用已註冊的範本提出請求。",
+            "對於有關範本註冊的任何請求，請發送",
+            "電子郵件",
+            "至。",
+            "上傳圖像檔案後，點擊“分析圖像”按鈕以提取圖像資料。若要上傳另一張圖像，請按一下「重新上傳圖像」按鈕。",
+            "檢查是否提取到正確的數據後，如果數據不正確，請更正數據並要求分析。"
+        ],
+        "sample-button": "下載調查表",
+        "another-image": "重新上傳圖片",
+        "request-button": "分析影像",
+        "request-info": "需要訊息",
+        "request-image": "需要圖片",
+        "request-data": "需要數據",
+        "chart-number-required": "請輸入圖表編號，若為未知可空白",
+        "incorrect-record": "請正確的擷取健康檢測紀錄",
+        "template-error": "請用正確的格式上傳數據",
+        "fields": {
+            "chart-number": "圖表編號",
+            "date": "日期",
+            "name": "姓名",
+            "age": "年齡",
+            "male": "男性",
+            "female": "女性",
+            "gender": "性別",
+            "height": "身高",
+            "weight": "體重",
+            "bpHigh": "收縮血壓",
+            "bpLwst": "舒張血壓",
+            "waist": "腰圍",
+            "blds": "血糖",
+            "totChole": "總膽固醇",
+            "triglyceride": "三酸甘油脂",
+            "hdlChole": "高密度脂蛋白-膽固醇",
+            "ldlChole": "低密度脂蛋白-膽固醇",
+            "hmg": "血紅素",
+            "creatinine": "血清肌酸酐",
+            "fmlyApopPatienYn": "家族中風史",
+            "fmlyHdisePatienYn": "家族高血壓史",
+            "fmlyHprtsPatienYn": "家族心血管疾病史",
+            "fmlyDiabmlPatienYn": "家族糖尿病史",
+            "smkStatTypeRspsCd": "吸煙狀況",
+            "unknown": "未知",
+            "yes": "是",
+            "no": "否",
+            "non-smoker": "無吸煙",
+            "former-smoker": "曾吸煙",
+            "current-smoker": "吸煙"
+        }
+    },
+    "management": {
+        "meta-title": "風險分析詳情 | ANRISK",
+        "title": "風險分析詳情",
+        "read-success": "檢索成功",
+        "read-error": "檢索失敗",
+        "table": {
+            "label": {
+                "report": {
+                    "delete": "刪除",
+                    "deleted": "已刪除",
+                    "expire-description": "已過期",
+                    "complete": "已完成",
+                    "complete-description": "分析完成",
+                    "failed": "失敗",
+                    "failed-description": "分析失敗",
+                    "column-error": "錯誤的檔案",
+                    "ing": "處理中",
+                    "ing-description": "分析處理中",
+                    "report-download": "下載分析檔案",
+                    "download": "下載"
+                }
+            },
+            "index": "分析",
+            "index-description": "編號",
+            "file": "報告檔案",
+            "file-description": "上傳報告檔名",
+            "file-name": "檔名",
+            "payment": "付款方式",
+            "analysis-status": "分析狀況",
+            "case": "案例 (全部/成功/失敗)",
+            "total-case": "全部案例",
+            "success-case": "成功案例",
+            "failure-case": "失敗案例",
+            "date": "日期",
+            "date-description": "分析完成日期",
+            "report-delete": "刪除",
+            "payment-error": "付款失敗，請稍後再試",
+            "download-success": "下載報告完成",
+            "download-error": "下載報告失敗，請稍後再試",
+            "report-delete-success": "刪除成功",
+            "report-delete-failure": "刪除失敗",
+            "report-delete-error": "刪除失敗，請稍後再試",
+            "search-belong": "搜尋隸屬名稱",
+            "all": "看全部",
+            "filter-my": "僅查看我的報告",
+            "no-data": "沒有什麼可顯示的。",
+            "delete-error": "您只能刪除您自己的報告。"
+        }
+    },
+    "modal": {
+        "title": "請選擇要求分析的方法",
+        "noti": "通知",
+        "confirm": "確認",
+        "cancle": "取消",
+        "delete": "刪除",
+        "header": {
+            "excel": "上傳Excel文件",
+            "input": "直接輸入健康檢查結果",
+            "image": "上傳圖片文件"
+        },
+        "description": {
+            "excel": [
+                "透過上傳包含檢查者健康檢查結果的 Excel 檔案來請求分析的方法。",
+                "建議檢查人員較多時使用。",
+                "如果沒有表格，請下載並使用 Excel 檔案範例。"
+            ],
+            "form": [
+                "透過直接輸入檢查者的健康檢查結果來請求分析的方法。",
+                "建議檢查人員較少時使用。"
+            ],
+            "image": [
+                "如果有包含檢查者健康檢查結果的問卷，請拍照並將其上傳為圖像檔案以要求分析。",
+                "建議檢查人員較少時使用。",
+                "您可以下載並索取樣本調查表。"
+            ]
+        },
+        "agree": {
+            "title": "ANRISK 個人資訊使用方法",
+            "description": [
+                "當使用者上傳病人資訊至ANRISK伺服器時，須遵守相關法規，且須小心操作以上傳正確的資訊。使用者須獨自負責因有意或無意所導致任何違法或錯誤資料上傳之行為",
+                "由ANRISK服務中所提供的報告為您提供的數據與患腦動脈瘤患者所提供資訊之統計數據相似性比較，這些報告並不被視為醫學評論或診斷。使用者可將結果視為參考依據，使用結果責任將自負。"
+            ],
+            "checkbox": "我同意上述所述之個人資料收集與使用"
+        },
+        "report-url": "前往報告歷史記錄",
+        "another-request": "額外要求",
+        "disagree": "欲分析報告，我們必須獲取您的同意我們取用您的個人資訊",
+        "success": "一旦分析完成，我們將會透過通知設定裡的通知方法告知您",
+        "delete-all": "您確定您要刪除全部的資料嗎?",
+        "payment-confirm": {
+            "transfer": "轉帳",
+            "card": "信用卡",
+            "register": "請註冊您的付款方式",
+            "cancle-description": "您的付款被取消了",
+            "complete": "付款完成"
+        },
+        "download-info": "解壓縮下載檔案的密碼為您的10位商業登記號碼",
+        "download-failure": [
+            "您可以在付款完成後下載",
+            "點擊未付款按鈕即可開啟付款視窗"
+        ],
+        "already-deleted": "已經被刪除了",
+        "delete-confirm": [
+            "刪除後，將無法回復，",
+            "您確定要刪除報告嗎?"
+        ],
+        "file-upload": "請上傳檔案",
+        "missing-info": "有些需要的資訊消失了，請雙重點擊上傳的檔案",
+        "file-limit": "您一次只能上傳一個檔案",
+        "excel-required": "請上傳excel檔",
+        "data-confirm": "請再次確認輸入的資料是否正確"
+    }
+}

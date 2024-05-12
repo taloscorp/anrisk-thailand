@@ -1,0 +1,237 @@
+{
+    "home": "홈",
+    "management": {
+        "meta-title": "고객사 관리 | ANRISK",
+        "title": "고객사 관리",
+        "search": "기관명을 입력해 주세요.",
+        "search-label": "기관명 검색",
+        "my": "내 고객사",
+        "all": "전체 고객사",
+        "add-button": "고객사 등록",
+        "info": "이미 등록된 병원은 타 유통사에서 영업이 진행중입니다. 중복 영업이 되지 않도록 유의하시기 바랍니다.",
+        "all-tooltip": "전체 고객사는 기관 유형이 '병원'인 경우만 표시됩니다.",
+        "filter": {
+            "reset": "초기화",
+            "all": "전체",
+            "label": {
+                "country": "국가"
+            },
+            "buttonList": {
+                "country": {
+                    "ko": "대한민국",
+                    "ja": "일본",
+                    "india": "인도"
+                }
+            },
+            "hoverInfo": {
+                "in-progress": "등록심사중",
+                "in-progress-info": "증빙 파일 첨부, 고객사 정보를 입력하여 등록 심사를 신청한 상태",
+                "rejection": "심사거절",
+                "rejection-info": "요청정보 미흡으로 심사가 거절된 상태(재심사요청 가능)",
+                "in-negotiation": "협의중",
+                "in-negotiation-info": "등록 심사를 통과하여 해당 고객사의 계약을 위한 협의 상태",
+                "drafting": "협의종료",
+                "drafting-info": "협의 이후 계약 예정인 상태",
+                "uncontracted": "미계약",
+                "uncontracted-info": "협의 이후 계약 불발된 상태(미계약 시 타 유통사 등록가능)",
+                "contracted": "계약",
+                "contracted-info": "협의 이후 계약이 체결되고 ANRISK 계정이 발급된 상태",
+                "end-contract": "계약종료",
+                "end-contract-info": "계약 기간이 만료되었지만 계약 연장을 진행하지 않은 상태(계약종료 시 타 유통사 등록가능)"
+            }
+        },
+        "table": {
+            "name": "기관명",
+            "managerName": "기관 담당자명",
+            "mainContact": "대리점 담당자",
+            "clientContact": "고객사 담당자",
+            "companyType": "기관유형",
+            "paymentType": "결제유형",
+            "unitPrice": "단가",
+            "createdDate": "등록일자",
+            "status": "계약상태",
+            "address": "주소",
+            "no-data": "등록 된 고객사가 없습니다. 고객사를 등록해 주세요."
+        }
+    },
+    "detail": {
+        "client": "고객사",
+        "more": "더보기",
+        "modify": "수정하기",
+        "update": "변경하기",
+        "save": "수정사항 저장",
+        "request": "고객사 등록 심사",
+        "info": {
+            "title": "기본 정보",
+            "type": "기관 유형",
+            "name": "기관명",
+            "number": "사업자번호",
+            "country": "소속 국가",
+            "address": "주소",
+            "hosp": "병원",
+            "non-hosp": "비병원",
+            "dist": "유통 업체",
+            "etc": "기타",
+            "ko": "대한민국",
+            "en": "미국",
+            "ja": "일본",
+            "zhTW": "대만",
+            "zhCN": "중국",
+            "india": "인도"
+        },
+        "contract": {
+            "title": "계약 정보",
+            "description": "고객사 신규 등록 시 ‘등록심사 중’ 상태가 됩니다. 심사가 승인되면 ‘협의 중’으로 변경 되며, 등록 시에 입력한 단가와 무료체험 날짜가 표시됩니다. 계약 상태에 변경사항이 있으면 ‘변경하기' 버튼을 클릭해서 상태를 업데이트 할 수 있습니다.",
+            "status": "상태",
+            "date": "날짜",
+            "monthly": "월별결제",
+            "free-trial": "무료체험",
+            "expire-date": "만료일",
+            "account": "업데이트한 계정",
+            "account-talos": "탈로스 내부 계정 입니다.",
+            "payment": "결제 유형",
+            "payment-title": "결제 정보",
+            "unitPrice": "단가 (원)",
+            "modal": {
+                "title": "계약 정보 변경하기",
+                "description": "계약 정보에 변경사항이 있다면 해당 정보를 수정할 수 있습니다. 수정 할 정보가 올바른 지 저장하기 전에 한번 더 확인해주시기 바랍니다.",
+                "status": "계약 상태",
+                "expire-date": "무료체험 만료일",
+                "in-negotiation": "협의중",
+                "contracted": "계약",
+                "end-contract": "계약종료",
+                "reason": "사유",
+                "missing-card": "명함 누락",
+                "missing-files": "증빙파일 불충분",
+                "missing-info": "정보 오입력",
+                "etc": "기타"
+            }
+        },
+        "files": {
+            "title": "증빙 파일",
+            "description": "고객사 등록 시 업로드한 증빙 파일입니다. 파일명을 클릭하면 이미지를 확인할 수 있습니다.",
+            "not-found": "업로드한 증빙 파일이 없습니다"
+        },
+        "manager": {
+            "title": "담당자 정보",
+            "agency": "대리점",
+            "rep": "기관",
+            "pic": "정산",
+            "name": "성함",
+            "phone": "연락처",
+            "email": "이메일",
+            "modal": {
+                "title": "담당자 정보 수정하기",
+                "description": [
+                    "필수 항목은",
+                    "로 표시되어 있습니다. 정산담당자의 정보가 없거나 모를 경우 빈칸으로 저장해주세요."
+                ]
+            }
+        }
+    },
+    "create": {
+        "title": "고객사 신규 등록",
+        "description": "신규 고객사 생성을 위해 증빙 파일 업로드와 기본 정보를 입력해주세요. 등록 요청 후 심사 완료가 되면 이메일로 알림을 발송할 예정입니다.",
+        "required": "(필수항목은 *로 표시되어있습니다)",
+        "optional": "(선택)",
+        "back": "뒤로",
+        "next": "다음",
+        "skip": "건너뛰기",
+        "request": "고객사 등록 요청",
+        "status-info": "심사 완료 후 계약 상태는 업데이트 됩니다",
+        "modify": "수정하기",
+        "modify-save": "수정사항 저장",
+        "error": "이미 존재하는 고객사 정보입니다.",
+        "try-again": "잠시 후에 다시 시도해 주세요.",
+        "create-failure": "고객사 등록 요청이 실패하였습니다. 잠시 후 다시 시도해 주세요.",
+        "update-info": "해당 정보로 수정하시겠습니까?",
+        "update-success": "정보 수정 완료",
+        "request-again": "해당 정보로 고객사 등록 재심사를 요청합니다.",
+        "request-again-success": "고객사 등록 재심사 요청이 완료되었습니다.",
+        "update-failure": "재심사 요청에 실패하였습니다.",
+        "status-ing": "해당 고객사 등록을 승인하시겠습니까?",
+        "status-ing-success": "고객사 등록이 승인되었습니다.",
+        "status-reject": "해당 고객사 등록을 거절하시겠습니까?",
+        "status-reject-success": "고객사 등록이 거절되었습니다.",
+        "files": {
+            "title": "증빙 파일 업로드",
+            "info": [
+                "ANRISK와 관련된 관련된 시간, 일자가 표시된 미팅 사진에 준하는 자료",
+                "(필수)",
+                "1. 미팅한 고객사 담당자 명함 + 유통사 담당자 명함",
+                "2. 실제 ANRISK 영업을 위한 미팅 증빙사진",
+                "- ANRISK 영업을 위한 미팅에서 고객사 측 직원과 영업사원이 같이 나온 사진에 일자 증명 (얼굴 안나와도 병원명 등 같이 나온 사진이면 인정)",
+                "- 약속잡은 문자, 메일 캡쳐본",
+                "- 미팅 후 감사인사 혹은 영업자료 전달 메일 캡쳐본"
+            ],
+            "required": "증빙 파일을 업로드 해주세요.",
+            "dropzone": [
+                "여기로 파일을 드래그하거나 클릭해서",
+                "업로드 하실 파일을 선택해주세요."
+            ]
+        },
+        "info": {
+            "title": "고객사 정보",
+            "duplicate": "중복확인",
+            "country": "소속 국가",
+            "number": {
+                "name": "사업자번호",
+                "required": "사업자번호를 숫자 10자리로 입력해 주세요.",
+                "matches": "올바른 사업자번호를 입력해 주세요.",
+                "duplicate-invalid": "이미 등록된 고객사 입니다.",
+                "duplicate-success": "등록 가능한 사업자번호 입니다.",
+                "duplicate-check": "사업자번호 중복 여부를 확인해 주세요."
+            },
+            "managerInfo": "대표 담당자 정보",
+            "picInfo": "정산 담당자 정보",
+            "managerName": "기관 담당자명",
+            "managerPhone": "기관 담당자 연락처",
+            "managerEmail": "기관 담당자 이메일",
+            "picName": "정산 담당자명",
+            "picPhone": "정산 담당자 연락처",
+            "picEmail": "정산 담당자 이메일",
+            "phone": {
+                "matches": "올바른 연락처를 입력해 주세요."
+            },
+            "email": {
+                "matches": "이메일 형식으로 입력해 주세요."
+            },
+            "address": {
+                "search": "주소 검색",
+                "required": "주소를 입력해 주세요."
+            },
+            "detail-address": {
+                "name": "상세 주소",
+                "required": "상세 주소를 입력해 주세요."
+            }
+        },
+        "contract": {
+            "title": "계약 상태",
+            "unitPrice": "단가",
+            "unit-price-error": "단가는 숫자만 입력할 수 있습니다.",
+            "status": "상태",
+            "expire-date": "무료체험 만료일"
+        },
+        "confirm": {
+            "info": "등록하려는 정보가 올바른지 확인하셨나요?",
+            "warning": "고객사 등록 후 6개월 이내에 매출이 발생하지 않으면 해당 고객사에 대한 독점권을 잃을 수 있습니다.",
+            "description": [
+                "지금 등록하고 계신",
+                "에 대한 계약과 관련된 우선권한이",
+                "에 배정됩니다.",
+                "그리고 탈로스의 공동발전을 위한 노력을 부탁드립니다."
+            ],
+            "sub-description": "등록하신 고객사명, 주소, 등록일자를 제외한 민감 정보 (e.g.단가 등)는 타업체에 공개되지 않습니다.",
+            "cancel": "취소",
+            "confirm": "네, 확인했습니다",
+            "go-back": "뒤로가기",
+            "create-success": [
+                "고객사 등록 요청이 완료되었습니다.",
+                "고객사 신규 등록을 요청해주셔서 감사합니다. 심사 후 심사 결과를 이메일 알림을 발송할 예정입니다 (심사 기간 영업일 3일 이내).",
+                "심사 승인을 받으신 후 계정을 생성할 수 있습니다."
+            ],
+            "add-more": "추가로 등록하기",
+            "go-to-page": "고객사 관리 페이지로 가기"
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "type": "公司類型",
+    "direct": "本身",
+    "dist": "循環",
+    "all": "全部",
+    "count": "分析次數",
+    "amount": "分析總計",
+    "unitPrice": "平均價格",
+    "search": "搜尋",
+    "select-company": "請選擇客戶公司。",
+    "sales": {
+        "meta-title": "銷售統計 | ANRISK",
+        "title": "銷售統計",
+        "home": "首頁",
+        "no-data": "沒有分析歷史記錄。",
+        "download": "匯出至 EXCEL",
+        "date-label": "查看日期",
+        "date-error": "它不能早於今天的日期。",
+        "download-success": "銷售統計下載成功",
+        "download-failure": "下載銷售統計資料失敗，請稍後重試。"
+    },
+    "clients": {
+        "meta-title": "客戶統計 | ANRISK",
+        "title": "客戶統計",
+        "home": "首頁",
+        "download": "匯出至 EXCEL",
+        "labels": [
+            "日常的",
+            "每週",
+            "每月",
+            "季刊",
+            "半年度",
+            "按年份"
+        ],
+        "download-success": "成功下載客戶統計數據",
+        "download-failure": "下載客戶統計資料失敗。請在幾分鐘後再試一次。"
+    },
+    "invoice": {
+        "meta-title": "稅單 | ANRISK",
+        "title": "稅單",
+        "date-label": "每月經期查詢",
+        "download": "匯出至 EXCEL",
+        "date-info": "請選擇每月下載的日期。",
+        "download-success": "稅務發票下載成功",
+        "download-failure": "稅務發票下載失敗。\n請幾分鐘後重試。"
+    },
+    "promotion": {
+        "meta-title": "促銷統計 | ANRISK",
+        "title": "促銷統計",
+        "home": "首頁",
+        "no-data": "沒有分析歷史記錄。",
+        "download": "匯出至 EXCEL",
+        "date-label": "查看日期",
+        "date-error": "它不能早於今天的日期。",
+        "download-success": "促銷統計下載成功",
+        "download-failure": "促銷統計數據下載失敗。請在幾分鐘後再試一次。"
+    }
+}

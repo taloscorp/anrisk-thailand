@@ -1,0 +1,38 @@
+{
+    "idx": {
+        "title": "번호",
+        "id": "아이디",
+        "name": "이름",
+        "belong": "소속명",
+        "inactive": "비활성(정지)",
+        "first": "최초접속대기",
+        "active": "정상"
+    },
+    "access": {
+        "name": "권한",
+        "dist": "유통관리자",
+        "manager": "매니저",
+        "user": "고객사"
+    },
+    "companyType": {
+        "name": "기관유형",
+        "dist": "유통 업체",
+        "hosp": "병원",
+        "non-hosp": "비병원",
+        "etc": "기타"
+    },
+    "more": "더보기",
+    "no-data": "표시 할 데이터가 없습니다.",
+    "sales": {
+        "actual-payment": "실 결제",
+        "own-contract": "자체 계약",
+        "customer-count": "고객 수",
+        "analysis-count": "분석 건 수",
+        "average-price": "평균 단가",
+        "sales": "매출",
+        "dist-contract": "유통 계약",
+        "total": "합산",
+        "free-trial": "무료 체험",
+        "all-total": "전체 합산"
+    }
+}

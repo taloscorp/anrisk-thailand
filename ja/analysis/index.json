@@ -1,0 +1,313 @@
+{
+    "meta-title": "分析リクエスト | ANRISK",
+    "home": "ホーム",
+    "sub-title": "リスク分析",
+    "submit": "分析リクエスト",
+    "request-setting": "レポート設定",
+    "report-type": "レポートファイル形式",
+    "file-option": "結果ファイルの設定オプション",
+    "locale-setting": "言語選択",
+    "report-setting": "分析をリクエストする前に、レポート言語、ファイル形式、または結果のレポート構成オプションを選択してください。",
+    "yes": "全て含む",
+    "no": "レポートのみ",
+    "excel": {
+        "title": "EXCELファイルの分析",
+        "description": [
+            "分析を要求すると、患者の健康診断結果データが入力された",
+            "1つの",
+            "Excelファイルのみがアップロードできます。複数のファイルの分析が必要な場合は、追加の要求を行うことができます。",
+            "サンプル フォームに従ってデータを入力してアップロードすることを強くお勧めします。"
+        ],
+        "header": {
+            "info": "健康診断結果データが記載されたExcelファイル、またはサンプルフォームに沿ってデータを入力したファイルをアップロードしてください。",
+            "upload": "ファイルのアップロード",
+            "upload-tooltip": "分析するファイルをアップロードしてください。",
+            "excel-file": "危険度測定依頼用サンプルEXCELファイル"
+        },
+        "submit-tooltip": "分析するレポートを送信します。",
+        "sample-download": "サンプルフォームのダウンロード",
+        "sample-downlaod-tooltip": "サンプルフォームをダウンロードできます。",
+        "sample-download-success": "サンプルフォームダウンロード成功",
+        "sample-download-failure": "サンプルフォームのダウンロードに失敗しました",
+        "sample-download-error": "サンプルフォームのダウンロードに失敗しました。しばらくしてからもう一度お試しください。",
+        "submit-error": "レポートの送信に失敗しました。しばらくしてからもう一度お試しください。",
+        "sample-form": "サンプルフォームガイド",
+        "sample-form-tooltip": "サンプルフォームガイドを確認できます。",
+        "dropzone": {
+            "title": "ファイル選択",
+            "description": "ここにファイルをドラッグ アンド ドロップするか、クリックしてファイルを検索します",
+            "delete-tooltip": "削除"
+        }
+    },
+    "input": {
+        "title": "データ直接入力",
+        "form": {
+            "title": [
+                "データ入力",
+                "家族歴",
+                "喫煙状態"
+            ],
+            "info": [
+                "患者の健康診断結果データを直接入力し、下部に「リスクも分析する」ボタンをクリックしてください。",
+                "* 欄は必須入力フィールドです。以外のフィールドは値がない場合は空白でリクエストしてください。"
+            ],
+            "chart-number": "チャート番号",
+            "date": "検診日",
+            "name": "名前",
+            "age": "年齢",
+            "male": "男性",
+            "female": "女性",
+            "gender": "性別",
+            "height": "身長",
+            "weight": "体重",
+            "bpHigh": "収縮期血圧",
+            "bpLwst": "拡張期血圧",
+            "waist": "ウエスト周り",
+            "blds": "血糖",
+            "totChole": "総コレステロール",
+            "triglyceride": "中性脂肪",
+            "hdlChole": "高密度リポタンパク濃度",
+            "ldlChole": "低密度リポタンパク濃度",
+            "hmg": "血色素",
+            "creatinine": "クレアチニン",
+            "sgotAst": "血中（GOT/AST）濃度",
+            "sgptAlt": "血中（GPT/ALT）濃度",
+            "gammaGtp": "血中（GGT/GTP）濃度",
+            "fmlyApopPatienYn": "脳卒中家族歴",
+            "fmlyHdisePatienYn": "高血圧家族歴",
+            "fmlyHprtsPatienYn": "心疾患の家族歴",
+            "fmlyDiabmlPatienYn": "糖尿病家族歴",
+            "smkStatTypeRspsCd": "喫煙可否",
+            "unknown": "不明",
+            "yes": "あり",
+            "no": "なし",
+            "non-smoker": "非喫煙者",
+            "former-smoker": "喫煙歴あり",
+            "current-smoker": "喫煙者",
+            "delete-all": "完全削除"
+        },
+        "message": {
+            "update-success": "修正完了",
+            "delete-success": "削除完了",
+            "name": "名前を入力してください。",
+            "age": {
+                "required": "あなたの年齢を入力してください。",
+                "error": "年齢は20から99まででなければなりません。"
+            },
+            "height": {
+                "required": "あなたの身長を入力してください。",
+                "error": "身長は101から250の間でなければなりません。"
+            },
+            "weight": {
+                "required": "あなたの体重を入力してください。",
+                "error": "体重は26から200の間でなければなりません。"
+            },
+            "bpHigh": {
+                "required": "あなたの収縮期血圧を入力してください。",
+                "error": "収縮期血圧は70から300の間でなければなりません。"
+            },
+            "bpLwst": {
+                "required": "あなたの拡張期血圧を入力してください。",
+                "error": "拡張期血圧は36から200の間でなければなりません。"
+            },
+            "waist": "ウエストは51から299の間でなければなりません。",
+            "blds": "血糖は26〜999の間でなければなりません。",
+            "totChole": "総コレステロールは26から999の間でなければなりません。",
+            "triglyceride": "中性脂肪は1から9999の間でなければなりません。",
+            "hdlChole": "高密度リポタンパク質は1〜999の間でなければなりません。",
+            "ldlChole": "低密度リポタンパク質は1から999の間でなければなりません。",
+            "hmg": "血色素は1〜20.39の間でなければなりません。",
+            "creatinine": "クレアチニンは0.1から99の間でなければなりません。",
+            "sgotAst": "GOT（AST）は1から9999の間でなければなりません。",
+            "sgptAlt": "GPT（ALT）は1から9999の間でなければなりません。",
+            "gammaGtp": "GGT（GTP）は1から9999の間でなければなりません。",
+            "special-char-error": "特殊文字は入力できません。"
+        },
+        "info": "チェックボックスで選択されたデータのみが分析要求されます。",
+        "case": "ケース",
+        "add-case": "追加",
+        "modify-case": "修正",
+        "add-info": "分析するデータを追加します。",
+        "add-success": "ケース追加完了",
+        "modify-success": "ケース修正完了",
+        "submit-tooltip": "レポート分析の依頼",
+        "error": "しばらくしてからもう一度お試しください。",
+        "delete-success": "削除完了。",
+        "delete-error": "削除に失敗しました。しばらくしてからもう一度お試しください。",
+        "non-check": "分析要求するケースを選択してください。",
+        "max-length": "合計10個のデータしか要求できません。 \n 保存したデータを削除して追加してください。",
+        "all-delete-confirm": "データ全体を削除しますか？",
+        "all-delete-success": "完全削除完了",
+        "all-delete-failure": "完全な削除に失敗しました。しばらくしてからもう一度お試しください。",
+        "request-error": "分析要求に失敗しました。しばらくしてからもう一度お試しください。",
+        "confirm": "入力したデータをもう一度確認してください。"
+    },
+    "image": {
+        "title": "画像解析",
+        "description": "患者の健康診断結果データが入力された問診票を撮影してアップロードしてください。",
+        "upload": "ファイルのアップロード",
+        "info": [
+            "登録されたテンプレート",
+            "でのみリクエストできます。テンプレート登録に関するご要望は",
+            "メール",
+            "でお問い合わせください。",
+            "画像ファイルをアップロードした後、「画像を分析する」ボタンをクリックすると画像のデータが抽出されます。別の画像をアップロードするには、[画像を再アップロード]ボタンをクリックしてください。",
+            "正しいデータが抽出されたことを確認した後にデータが正しくない場合は、データを修正して分析要求を行ってください。"
+        ],
+        "sample-button": "問診票フォームのダウンロード",
+        "another-image": "画像を再アップロード",
+        "request-button": "画像分析",
+        "request-info": "分析要求情報",
+        "request-image": "分析画像",
+        "request-data": "分析要求データ",
+        "chart-number-required": "チャート番号を入力してください。知らない場合は入力する必要はありません。",
+        "incorrect-record": "健康診断記録紙を正しく再撮影してください。",
+        "template-error": "正しいテンプレートでアップロードしてください。",
+        "fields": {
+            "chart-number": "チャート番号",
+            "date": "検診日",
+            "name": "名前",
+            "age": "年齢",
+            "male": "男性",
+            "female": "女性",
+            "gender": "性別",
+            "height": "身長",
+            "weight": "体重",
+            "bpHigh": "収縮期血圧",
+            "bpLwst": "拡張期血圧",
+            "waist": "ウエスト周り",
+            "blds": "血糖",
+            "totChole": "総コレステロール",
+            "triglyceride": "中性脂肪",
+            "hdlChole": "高密度リポタンパク濃度",
+            "ldlChole": "低密度リポタンパク濃度",
+            "hmg": "血色素",
+            "creatinine": "クレアチニン",
+            "sgotAst": "血中（GOT/AST）濃度",
+            "sgptAlt": "血中（GPT/ALT）濃度",
+            "gammaGtp": "血中（GGT/GTP）濃度",
+            "fmlyApopPatienYn": "脳卒中家族歴",
+            "fmlyHdisePatienYn": "高血圧家族歴",
+            "fmlyHprtsPatienYn": "心疾患の家族歴",
+            "fmlyDiabmlPatienYn": "糖尿病家族歴",
+            "smkStatTypeRspsCd": "喫煙状態",
+            "unknown": "わからない",
+            "yes": "あり",
+            "no": "なし",
+            "non-smoker": "非喫煙",
+            "former-smoker": "過去喫煙",
+            "current-smoker": "現在喫煙"
+        }
+    },
+    "management": {
+        "meta-title": "リスク分析の履歴 | ANRISK",
+        "title": "リスク分析の履歴",
+        "read-success": "検索成功",
+        "read-error": "データの読み込みに失敗しました",
+        "table": {
+            "label": {
+                "report": {
+                    "delete": "削除",
+                    "deleted": "削除済み",
+                    "expire-description": "有効期限が切れました。",
+                    "complete": "分析完了",
+                    "complete-description": "分析が完了しました。",
+                    "failed": "分析エラー",
+                    "failed-description": "分析に失敗しました。",
+                    "column-error": "無効なファイル",
+                    "ing": "分析中",
+                    "ing-description": "分析を進行中です。",
+                    "report-download": "分析ファイルのダウンロード",
+                    "download": "ダウンロード"
+                }
+            },
+            "index": "分析ガン",
+            "index-description": "分析固有番号です。",
+            "file": "分析ファイル",
+            "file-description": "アップロードファイル名です。",
+            "payment": "決済タイプ",
+            "analysis-status": "分析状態",
+            "case": "分析件数 (全体/成功/失敗)",
+            "total-case": "総分析件数",
+            "success-case": "成功件数",
+            "failure-case": "失敗件数",
+            "date": "分析日",
+            "date-description": "分析が完了した日付です。",
+            "report-delete": "削除",
+            "payment-error": "お支払いに失敗しました。もう一度お試しください。",
+            "download-success": "レポートダウンロード完了",
+            "download-error": "レポートのダウンロードに失敗しました。しばらくしてからもう一度お試しください。",
+            "report-delete-success": "レポートの削除完了",
+            "report-delete-failure": "レポートの削除に失敗しました",
+            "report-delete-error": "レポートの削除に失敗しました。しばらくしてからもう一度お試しください。",
+            "search-belong": "所属名を検索",
+            "all": "全て見る",
+            "filter-my": "私のレポートのみを見る",
+            "file-name": "ファイル名",
+            "no-data": "表示する内容がありません。",
+            "delete-error": "私のレポートのみを削除できます。"
+        }
+    },
+    "modal": {
+        "title": "分析依頼方法をお選びください。",
+        "noti": "お知らせ",
+        "confirm": "確認",
+        "cancle": "キャンセル",
+        "delete": "削除",
+        "header": {
+            "excel": "Excelファイルをアップロードする",
+            "input": "健康診断結果を直接入力",
+            "image": "画像ファイルをアップロードする"
+        },
+        "description": {
+            "excel": [
+                "検査者の健康診断結果値が入力されたExcelファイルをアップロードして分析を要求する方法。",
+                "検査者数が多い場合は利用をお勧めします。",
+                "フォームがない場合は、Excelファイルのサンプルをダウンロードして使用してください。"
+            ],
+            "form": [
+                "検査者の健康診断結果値を直接入力して分析を要求する方法。",
+                "検査者数が少ない場合は、利用をお勧めします。"
+            ],
+            "image": [
+                "検査者の健康診断結果値が記載された問診票がある場合、写真を撮って画像ファイルにアップロードして分析を要求する方法。",
+                "検査者数が少ない場合は、利用をお勧めします。",
+                "サンプル問診票フォームをダウンロードしてリクエストできます。"
+            ]
+        },
+        "agree": {
+            "title": "ANRISK個人情報の利用履歴",
+            "description": [
+                "ユーザーはANRISKサービスに患者の情報を直接アップロードする際に関連法令を遵守し、正確な情報をアップロードするように注意を払う必要があります。利用者の故意または過失により関連法令に違反したり、不正確な情報がアップロードされたことに対する責任は、利用者が負担します。",
+                "ANRISKサービスによる報告は、提供されたデータと脳動脈瘤の病気の健康情報との間の類似性を比較する統計であり、医学的判断または診断には対応していません。利用者は上記の報告書を参考に活用することができ、その責任は利用者が負担します。"
+            ],
+            "checkbox": "上記個人情報の収集・利用に同意します。"
+        },
+        "report-url": "レポート履歴に移動",
+        "another-request": "追加リクエスト",
+        "disagree": "レポート分析のために個人情報の利用履歴に同意が必要です。",
+        "success": "分析が完了したら、通知でお知らせします。",
+        "delete-all": "データ全体を削除しますか？",
+        "payment-confirm": {
+            "transfer": "口座振替",
+            "card": "カード決済",
+            "register": "決済手段を登録してください。",
+            "cancle-description": "お支払いをキャンセルしました。",
+            "complete": "お支払いが完了しました。"
+        },
+        "download-failure": [
+            "お支払い後にダウンロードできます。",
+            "未払いボタンを押すと、支払いウィンドウが開きます。"
+        ],
+        "already-deleted": "すでに削除処理されています。",
+        "delete-confirm": [
+            "削除後は復旧できません。",
+            "レポートを本当に削除してもよろしいですか？"
+        ],
+        "file-upload": "ファイルをアップロードしてください。",
+        "missing-info": "分析に必要な情報がありません！ファイルを確認してください。",
+        "file-limit": "ファイルは1つずつアップロードできます。",
+        "excel-required": "Excelファイルをアップロードしてください。",
+        "data-confirm": "入力したデータが正しいことをもう一度確認してください。"
+    }
+}

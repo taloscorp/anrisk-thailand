@@ -1,0 +1,103 @@
+{
+    "hello": [
+        "こんにちは、"
+    ],
+    "report": {
+        "title": "報告管理",
+        "description": "查看並管理腦動脈瘤風險分析報告"
+    },
+    "company": {
+        "title": "使用者管理",
+        "description": "客戶管理及統計查詢"
+    },
+    "account": {
+        "title": "帳號管理",
+        "description": "查看和管理您公司的關聯帳戶和客戶帳戶"
+    },
+    "link": "快速方式",
+    "expire-date": [
+        "還有",
+        "天的試用期"
+    ],
+    "primary-button": "分析風險",
+    "message": {
+        "read-success": "檢索成功",
+        "read-failure": "檢索失敗",
+        "error": "請稍後再試",
+        "sample-success": "範本表格下載成功",
+        "sample-failure": "範本表格下載失敗",
+        "data-not-found": "沒有最近的分析。"
+    },
+    "monthly-transaction": {
+        "title": "月分析情形",
+        "date-unit": [
+            "/",
+            ""
+        ],
+        "month-unit": [
+            "一月",
+            "＝月",
+            "三月",
+            "四月",
+            "五月",
+            "六月",
+            "七月",
+            "八月",
+            "九月",
+            "十月",
+            "十一月",
+            "十二月"
+        ]
+    },
+    "total-transaction": {
+        "title": "每年的分析數量",
+        "description": "當您選擇經銷商時，僅顯示該經銷商的直接合約客戶的分析數量。當您選擇客戶公司時，僅顯示該客戶公司的分析數量。",
+        "data-not-found": "分析報告不存在。",
+        "dist": "經銷商",
+        "chart": {
+            "title": "日期",
+            "total": "病例總數",
+            "billing": "計費案例",
+            "duplicate": "重複案例",
+            "free": "促銷次數"
+        }
+    },
+    "client-status": {
+        "title": "客戶狀態",
+        "description": "當您選擇經銷商時，只會顯示該經銷商（包括您）的直接合約客戶的分析數量。",
+        "chart": {
+            "series": {
+                "total": "客戶總數",
+                "data-not-found": "沒有活躍客戶。",
+                "in-negotiation": "洽談中",
+                "drafting": "起草",
+                "uncontracted": "未簽約",
+                "contracted": "簽約",
+                "end-contract": "終止合約",
+                "in-progress": "進行中",
+                "in-progress-tooltip": "客戶註冊請求已完成，這是等待審核的客戶數量。",
+                "rejection": "拒絕",
+                "rejection-tooltip": "這是由於註冊規定而被拒絕篩選的客戶數量。",
+                "expire": "已到期",
+                "expire-tooltip": "商譽生效日期不足1個月，擬轉為非合約，商譽有限。"
+            }
+        }
+    },
+    "security": {
+        "title": "安全",
+        "description": [
+            "如果您從別處登入的話，已存在的登入狀態將會截止。在分析完成的7天後，系統將會自動刪除資料"
+        ]
+    },
+    "disclaimer": {
+        "title": "免責聲明",
+        "dist": [
+            "• 合約和銷售權限僅授予透過「我的客戶註冊」正確註冊的醫院。",
+            "• 登記醫院時，憑商業登記證重複審查，已經營業的醫院不能登記。",
+            "• 此外，您必須提交實際 ANRISK 銷售會議的證明，透過此證明，註冊程序將在評估/篩選後完成。",
+            "• 如果註冊醫院在 6 個月內沒有產生重大銷售額，該醫院的商譽將被撤銷，並且無法重新註冊。",
+            "• 為了在醫院使用 ANRISK，經銷商和醫院之間必須簽訂包含標準合同條款的供貨合同，Talos Co., Ltd. 不承擔因不遵守此合同而產生的任何法律或行政責任。 。",
+            "• 當醫院傳輸病患資訊以使用 ANRISK 時，必須從病患處取得包含標準同意書內容的同意書並將其儲存在醫院。 Talos Co., Ltd.不承擔因不遵守這方面規定而產生的任何法律/行政責任。"
+        ]
+    }
+}

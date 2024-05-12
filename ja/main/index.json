@@ -1,0 +1,104 @@
+{
+    "hello": [
+        "こんにちは、"
+    ],
+    "report": {
+        "title": "レポート管理",
+        "description": "脳動脈瘤発症リスク分析レポートの照会と管理"
+    },
+    "company": {
+        "title": "顧客会社の管理",
+        "description": "顧客会社の管理と統計の照会"
+    },
+    "account": {
+        "title": "アカウント管理",
+        "description": "会社のリンク先アカウントと顧客アカウントの表示と管理"
+    },
+    "link": "ショートカット",
+    "expire-date": [
+        "無料体験期間が",
+        "日残っています"
+    ],
+    "primary-button": "リスクを分析する",
+    "message": {
+        "read-success": "検索は成功しました",
+        "read-failure": "検索失敗",
+        "error": "しばらくお待ちください。後で再度お試しください。",
+        "sample-success": "サンプルのフォームのダウンロードが成功しました。",
+        "sample-failure": "サンプルのフォームのダウンロードに失敗しました。",
+        "data-not-found": "最近の分析履歴はありません。"
+    },
+    "monthly-transaction": {
+        "title": "ご利用履歴",
+        "date-unit": [
+            "月",
+            "日"
+        ],
+        "month-unit": [
+            "1月",
+            "2月",
+            "3月",
+            "4月",
+            "5月",
+            "6月",
+            "7月",
+            "8月",
+            "9月",
+            "10月",
+            "11月",
+            "12月"
+        ]
+    },
+    "total-transaction": {
+        "title": "年間の分析数",
+        "description": "販売代理店を選択すると、その販売代理店の直接契約顧客の分析数のみが表示されます。顧客企業を選択すると、その顧客企業の分析件数のみが表示されます。",
+        "data-not-found": "分析レポートが存在しません。",
+        "dist": "卸売業者",
+        "chart": {
+            "title": "日付",
+            "total": "総症例数",
+            "billing": "請求されたケース",
+            "duplicate": "重複したケース",
+            "free": "プロモーション件数"
+        }
+    },
+    "client-status": {
+        "title": "クライアントのステータス",
+        "description": "販売代理店を選択すると、その販売代理店の直接契約クライアント（お客様を含む）からの分析数のみが表示されます。",
+        "chart": {
+            "series": {
+                "total": "総顧客数",
+                "data-not-found": "販売中の顧客会社は存在しません。",
+                "in-negotiation": "交渉中",
+                "drafting": "製図",
+                "uncontracted": "未契約",
+                "contracted": "契約済み",
+                "end-contract": "契約を終了する",
+                "in-progress": "進行中",
+                "in-progress-tooltip": "顧客会社登録要求が完了し、審査待機中の顧客会社の数です。",
+                "rejection": "拒絶",
+                "rejection-tooltip": "登録規定により審査が拒否されたお客様の数です。",
+                "expire": "期限切れ",
+                "expire-tooltip": "のれんの有効日が1ヶ月未満で、未契約に転換予定であり、のれんが制限されます。"
+            }
+        }
+    },
+    "security": {
+        "title": "セキュリティポリシー",
+        "description": [
+            "2台以上のPCからログインされると、最新のログインだけが有効となり、既存のログイン先は終了します。",
+            "分析レポートは7日が経過すると、自動的に削除されます。"
+        ]
+    },
+    "disclaimer": {
+        "title": "免責事項",
+        "dist": [
+            "• Contract and sales authority is granted only to hospitals that have been properly registered through \"My Customer Registration.\"",
+            "• When registering a hospital, a duplicate review is conducted based on the business registration certificate, and hospitals that are already in business cannot be registered.",
+            "• Additionally, you must submit proof of an actual ANRISK sales meeting, and through this, the registration process will be completed after evaluation/screening.",
+            "• If the registered hospital does not generate significant sales for 6 months, the goodwill for that hospital will be revoked and re-registration will not be possible.",
+            "• In order to use ANRISK in hospitals, a supply contract containing the terms of the standard contract must be concluded between the distributor and the hospital, and Talos Co., Ltd. does not bear any legal or administrative liability arising from non-compliance with this.",
+            "• When a hospital transmits patient information to use ANRISK, consent containing the contents of a standard consent form must be obtained from the patient and stored at the hospital. Talos Co., Ltd. does not bear any legal/administrative liability arising from non-compliance in this regard."
+        ]
+    }
+}

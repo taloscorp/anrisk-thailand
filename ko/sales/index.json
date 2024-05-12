@@ -1,0 +1,58 @@
+{
+    "type": "기관 유형",
+    "direct": "자체",
+    "dist": "유통",
+    "all": "전체",
+    "count": "보고서 수",
+    "amount": "분석 총액",
+    "unitPrice": "평균 단가",
+    "search": "검색",
+    "select-company": "고객사를 선택해 주세요.",
+    "sales": {
+        "meta-title": "매출 통계 | ANRISK",
+        "title": "매출 통계",
+        "home": "홈",
+        "no-data": "매출 내역이 없습니다.",
+        "download": "EXCEL 다운로드",
+        "date-label": "기준 날짜",
+        "date-error": "오늘 날짜보다 빠를 수 없습니다.",
+        "download-success": "매출 통계 다운로드 성공",
+        "download-failure": "매출 통계 다운로드 실패. 잠시 후 다시 시도해 주세요."
+    },
+    "clients": {
+        "meta-title": "고객사 통계 | ANRISK",
+        "title": "고객사 통계",
+        "home": "홈",
+        "download": "Excel 다운로드",
+        "labels": [
+            "일",
+            "주",
+            "월",
+            "분기",
+            "반기",
+            "년도"
+        ],
+        "download-success": "고객사 통계 다운로드 성공",
+        "download-failure": "고객사 통계 다운로드 실패. 잠시 후 다시 시도해 주세요."
+    },
+    "invoice": {
+        "meta-title": "세금 계산서 | ANRISK",
+        "title": "세금 계산서",
+        "date-label": "월별 기간 조회",
+        "download": "EXCEL 다운로드",
+        "date-info": "월별 다운로드시 날짜를 선택해 주세요.",
+        "download-success": "세금 계산서 다운로드 성공",
+        "download-failure": "세금 계산서 다운로드 실패.\n잠시 후에 다시 시도해 주세요."
+    },
+    "promotion": {
+        "meta-title": "프로모션 통계 | ANRISK",
+        "title": "프로모션 통계",
+        "home": "홈",
+        "no-data": "프로모션 내역이 없습니다.",
+        "download": "EXCEL 다운로드",
+        "date-label": "기준 날짜",
+        "date-error": "오늘 날짜보다 빠를 수 없습니다.",
+        "download-success": "프로모션 통계 다운로드 성공",
+        "download-failure": "프로모션 통계 다운로드 실패. 잠시 후 다시 시도해 주세요."
+    }
+}

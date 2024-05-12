@@ -1,0 +1,29 @@
+{
+    "title": {
+        "risk-analysis": "リスク分析",
+        "payment-management": "支払い管理",
+        "client": "顧客管理",
+        "sales": "営業管理",
+        "support": "カスタマーサポート",
+        "setting": "設定"
+    },
+    "subheader": {
+        "risk-analysis": "リスク分析の依頼",
+        "risk-analysis-management": "分析レポートの履歴",
+        "account-management": "アカウント",
+        "company-management": "顧客会社",
+        "sales-stats": "分析レポート統計",
+        "company-stats": "顧客会社の統計",
+        "company-invoice": "税金計算書",
+        "user-manual": "ユーザーマニュアル",
+        "resources": "資料室",
+        "security": "安全",
+        "logout": "ログアウト",
+        "inquiry": "お問い合わせする",
+        "mypage": "マイページ",
+        "policy": "個人情報の取扱い方針",
+        "admin": {
+            "report-sample": "Manage Samples"
+        }
+    }
+}

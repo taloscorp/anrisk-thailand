@@ -1,0 +1,145 @@
+{
+    "title": "Sign in - ANRISK",
+    "form": {
+        "id": "ID",
+        "id-required": "Please enter your ID",
+        "password": "Password",
+        "password-required": "Please enter your password"
+    },
+    "info": [
+        "Welcome to the ANRISK™ platform.",
+        "Please enter your ID and password to use the ANRISK™ platform. If you do not have an account, please send us an email with details of your institution and we will be in contact with you."
+    ],
+    "contact": "ANRISK™ introduction inquiry",
+    "login": "Sign In",
+    "user-manual": "User Manual",
+    "user-manual-info": "Instructions on how to use the platform are provided in the user manual. Click on the button below to download the file.",
+    "login-info": "If this is your first login, please set a new password before logging in through the email that has been sent. Please contact us if you did not receive an email.",
+    "email": "Email",
+    "auto-login": "Remember me",
+    "find-id": "Find ID",
+    "find-id-description": "Please enter the name and email address associated with your account.",
+    "find-id-form": {
+        "name": "Name",
+        "email": "Email",
+        "next": "Next",
+        "save": "Save"
+    },
+    "reset-password": "Reset Password",
+    "account-info": "If you do not have an account and would like to create one, please send us an email.",
+    "thankyou": "thank you.",
+    "message": {
+        "id": {
+            "required": "Please enter your ID"
+        },
+        "password": {
+            "matches": "Please enter the same password as above.",
+            "required": "Please enter your password",
+            "not-matched": "Passwords do not match.",
+            "new": "Please enter a new password.",
+            "min": "Please check the password requirements.",
+            "confirm": "Confirm password"
+        },
+        "name": {
+            "required": "Input your name, please.",
+            "min": "Please enter a name of at least 2 characters."
+        },
+        "email": {
+            "required": "Please enter your email address.",
+            "valid": "Please enter a valid email address."
+        },
+        "submit": {
+            "success": "Login successful",
+            "failure": "Login failed",
+            "try-again": "Login failed. Please try again",
+            "error": "Please try again in a moment",
+            "account-none": "Unable to find user account",
+            "incorrect": "The id or password entered is incorrect",
+            "undefined": "This user does not exist.",
+            "email": "An email has been sent",
+            "email-info": [
+                "A verification email has been sent to the email address you entered.",
+                " If you did not receive the email, please check if your email is correct."
+            ],
+            "reset-info": [
+                "Please enter the ID and email address associated with your account.",
+                ""
+            ],
+            "password-confirm": "Please enter your password again.",
+            "reset-success": "Please go to the login page and sign in with your ID and new password.",
+            "login": "Go to login page"
+        },
+        "help": [
+            "If you need assistance, ",
+            "please contact",
+            "hello@taloscorp.io"
+        ]
+    },
+    "modal": {
+        "noti": "Your password has been changed",
+        "confirm": "Confirm",
+        "submit-success": "Complete",
+        "submit-success-description": "Thank you for your inquiry. We will review your request and contact you shortly.",
+        "submit-failure": "Failed",
+        "submit-failure-description": "To submit your inquiry, please agree to our Privacy Policy and Cookie Policy",
+        "password-success": "Password successfully changed",
+        "password-failure": "Failed to change password",
+        "try-agian": "Please try again",
+        "duplicate": [
+            "You are already connected from another device.",
+            "Would you like to disconnect from your existing device and proceed to log in?",
+            "(If it is forcibly terminated, you can connect after 5 minutes.)"
+        ],
+        "password": [
+            "It's been 90 days since you set your password.",
+            "To protect your valuable personal information",
+            "please change your password periodically.",
+            "Change later",
+            "Change now"
+        ],
+        "remember": [
+            "If you stay logged in",
+            "You do not need to enter your ID and password for 30 days.",
+            "Personal information may be leaked in public places.",
+            "Please use for personal use only."
+        ]
+    },
+    "footer": {
+        "ceo": "CEO",
+        "ceo-name": "Tackeun Kim",
+        "business-number": "Business Registration Number",
+        "online-business-number": "Online Business Registration Number",
+        "online-business-number-value": "2022-Seoul Gangnam-06523",
+        "address": "160, Yeoksam-ro, Gangnam-gu, Seoul, Republic of Korea",
+        "ad-blocking-message": "Some features may not work if an ad-blocking extension is installed"
+    },
+    "password": {
+        "meta-title": "Reset Password | ANRISK",
+        "title": "Reset Password",
+        "first-info": [
+            "For security purposes, you are required to change your password upon initial login",
+            "Please log in again after changing your password"
+        ],
+        "expire-info": [
+            "It has been 90 days since your last password change Please change your password again",
+            "Please login again after changing your password"
+        ],
+        "change-info": [
+            "Please change your password for your privacy.",
+            "It's been 3 months since I set my password.",
+            "Please change your password periodically to protect your valuable personal information."
+        ],
+        "change": "Change now",
+        "change-later": "Change next time",
+        "password": "Password",
+        "password-tooltip": "Combine uppercase and lowercase letters, numbers, and special characters to create a minimum of 8 characters",
+        "password-required": "Please enter your password",
+        "password-confirm": "Password Confirm",
+        "password-confirm-tooltip": "Please enter your password again",
+        "password-confirm-error": "The passwords entered do not match",
+        "update": "Update",
+        "invalid": "Invalid access",
+        "email": "hello@taloscorp.io",
+        "invalid-info": "If you have any problems setting your password, please contact"
+    }
+}

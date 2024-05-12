@@ -1,0 +1,34 @@
+{
+    "noti-popover": {
+        "noti": "通知",
+        "noti-none": "沒有通知",
+        "all-read": "全部已讀",
+        "message": {
+            "extension": "如果您未延長登入狀態，您將會在5分鐘後被登出",
+            "complete": [
+                "分析",
+                "報告已完成"
+            ],
+            "delete": [
+                "刪除 ",
+                "報告已完成"
+            ],
+            "expire": "報告已過期且已刪除",
+            "willExpired": "報告即將過期"
+        }
+    },
+    "account-popover": {
+        "my-info": "個人資料",
+        "my-page": "個人資料",
+        "signout": "登出",
+        "dist": "分銷經理",
+        "manager": "主管",
+        "user": "顧客"
+    },
+    "error": "請稍後再試",
+    "extension-popover": {
+        "noti": "通知",
+        "confirm": "擴大",
+        "cancel": "維持"
+    }
+}

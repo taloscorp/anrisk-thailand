@@ -1,0 +1,140 @@
+{
+    "title": "My Page | ANRISK",
+    "header": "My Page",
+    "home": "Home",
+    "message": {
+        "read-failure": "Failed to retrieve data",
+        "error": "Please try again in a moment"
+    },
+    "taps": {
+        "general": "General",
+        "security": "Security",
+        "noti": "Email Notification Settings"
+    },
+    "general": {
+        "title": "Personal Information",
+        "image-info": "You cannot change the profile image",
+        "form": {
+            "name": "Name",
+            "belong": "Organization (Company)",
+            "business-number": "Business Number",
+            "email": "Email",
+            "phone": "Contact number",
+            "address": "Address",
+            "payment-status": {
+                "case": "Payment per transaction",
+                "monthly": "Monthly payment",
+                "free-trial": "Free Trial"
+            },
+            "payment-method": "Payment Method",
+            "expire-date": "Expire Date"
+        },
+        "message": {
+            "name": {
+                "required": "Please enter your name",
+                "min": "Please enter a minimum of 2 characters",
+                "max": "Please enter a maximum of 10 characters"
+            },
+            "belong": {
+                "required": "Please enter your organization (company)"
+            },
+            "business-number": {
+                "required": "Please enter your business registration number",
+                "valid": "Please enter your business registration number as a 10-digit number"
+            },
+            "email": {
+                "required": "Please enter your email address",
+                "valid": "Please enter a valid email address",
+                "error": "This email address is already in use"
+            },
+            "phone": {
+                "required": "Please enter your phone number",
+                "valid": "Please enter a valid mobile phone number"
+            },
+            "address": {
+                "required": "Please enter your address"
+            },
+            "update-info": "Updating information"
+        }
+    },
+    "belong": {
+        "ko": "Korea",
+        "en": "USA",
+        "ja": "Japan",
+        "zhTW": "Taiwan",
+        "zhCN": "China",
+        "title": "Company Information",
+        "companyType": "Company type",
+        "contractDate": "Contract date",
+        "country": "Country",
+        "name": "Name",
+        "companyNumber": "Business registration number",
+        "manager": "Manager name",
+        "phone": "Manager phone",
+        "email": "Manager email",
+        "unitPrice": "Price per analysis",
+        "paymentType": "Payment type",
+        "address": "Address"
+    },
+    "security": {
+        "ip": {
+            "title": "Configure access IP",
+            "button": "Check my IP address",
+            "access-ip": "Allowed IP address",
+            "min": "Please enter the IP address to allow access"
+        },
+        "password": {
+            "title": "Password Configuration",
+            "password": "Password",
+            "password-confirmation": "Confirm password",
+            "password-confirmation-message": "Please enter your password again",
+            "password-update-message": "Updating the password",
+            "min": "Combine uppercase and lowercase letters, numbers, and special characters to create a minimum of 8 characters",
+            "incorrect-password": "The password entered is incorrect",
+            "required": "Please enter your password",
+            "button": "Save changes"
+        },
+        "api-key": {
+            "title": "API Key",
+            "api-key": "API KEY",
+            "api-key-info": "You can check the generated API key",
+            "message": {
+                "once-info": "The generated API key will be displayed only once and cannot be viewed in the future",
+                "lost-info": "If you have lost your key, you will need to generate a new key",
+                "inquiry-info": "For details, please contact the development team",
+                "generate-modal": "If you click the Create button, a new API KEY will be created.\nThe existing API KEY can no longer be used."
+            },
+            "generate-api-key": "Generating an API key",
+            "button": "Generate",
+            "copy": "copy",
+            "cancle": "Cancle"
+        },
+        "message": {
+            "ip-error": "Unable to retrieve IP information",
+            "api-key": "API key generation completed",
+            "clipboard": "Copied to clipboard",
+            "clipboard-failure": "Failed to copy to clipboard"
+        }
+    },
+    "noti": {
+        "general": {
+            "title": "General",
+            "description": "Receiving a general notification",
+            "email-noti": "General notification"
+        },
+        "report": {
+            "title": "Report",
+            "description": "Receiving report notifications via email",
+            "report-noti": "Report notification"
+        },
+        "modal": {
+            "update-success": "Information change is complete.",
+            "update-error": "Information change failed.",
+            "confirm": "Check",
+            "password-changed": "* Please log in with the changed password.",
+            "logout-info": "* Click Check to log out.",
+            "extension": "연장",
+            "keep": "유지"
+        }
+    }
+}

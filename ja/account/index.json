@@ -1,0 +1,144 @@
+{
+    "home": "ホーム",
+    "meta-title": "アカウント管理 | ANRISK",
+    "title": "アカウント管理",
+    "search": "検索",
+    "all-read": "初期化",
+    "add-button": "アカウント登録",
+    "table": {
+        "index": "番号",
+        "access": "権限",
+        "company": "機関タイプ",
+        "updatedDate": "最終アクセス日",
+        "createdDate": "作成日",
+        "modify": "修正",
+        "more": "もっと",
+        "search-info": "検索したい値を入力してください。"
+    },
+    "modal": {
+        "title": "アカウントを編集",
+        "add": "アカウント登録",
+        "add-info": "アカウント作成のために顧客会社を最初に選択してください。顧客会社を検索できない場合は、顧客会社を新規登録してください。",
+        "select-company": "登録された顧客の検索",
+        "select-company-info": "アカウントを登録する顧客名を入力してください。検索されない場合は、下の「顧客会社新規登録」ボタンをクリックして顧客会社を登録してください。",
+        "company-name": "顧客会社名",
+        "firstStep": {
+            "title": "個人情報",
+            "description": "アカウントを使用する担当者の情報を入力してください。アカウント登録後、マイページで情報修正が可能です。",
+            "repr": "機関担当者情報と同じ",
+            "pic": "決済担当者情報と同じ",
+            "new": "+ 新規アカウントを追加"
+        },
+        "secondStep": {
+            "title": "メール通知の設定",
+            "description": "ANRISKプラットフォームに関する重要な通知が電子メールで送信されます。すべての受信をお勧めし、アカウントが登録された後も受信可否の変更が可能です。",
+            "general": "一般",
+            "general-info": "お問い合わせやアカウントに関するお知らせをお送りします。",
+            "general-radio": "一般通知メールの受信",
+            "report": "レポート",
+            "report-info": "分析ステータスとレポートに関する通知を送信します。",
+            "report-radio": "レポート通知メールの受信"
+        },
+        "required": "必須",
+        "optional": "選択",
+        "back": "戻る",
+        "next": "Next",
+        "next-step": "次のステップ",
+        "data-not-found": "表示するデータがありません。",
+        "add-company": "お客様の新規登録",
+        "add-company-info": "新規顧客作成のために証明ファイルのアップロードと基本情報を入力してください。お客様登録のリクエスト後に審査が完了したら、メールで通知を送信する予定です。",
+        "search-belong": "所属検索",
+        "info": "アカウントの編集",
+        "modify-info": "アカウント情報の編集",
+        "report-info": "分析完了、レポート生成、レポート削除予定、レポート削除完了通知をお送りします。",
+        "admin-setting": "管理者権限",
+        "report-alarm": "レポート通知メールを受信する（オプション）",
+        "general-info": "お問い合わせとアカウントに関する通知をお送りします。",
+        "email-alarm": "一般通知メールの受信(オプション)",
+        "add-complete": "新規アカウント登録完了",
+        "add-complete-info": "初期接続のための情報が登録されたメールで送信されました。",
+        "modify": "修正",
+        "modify-save": "編集を保存",
+        "status": {
+            "title": "",
+            "info": [
+                "Deactivating the account means that the user can no longer access the platform.",
+                "Reseting the password will send an email to the user to reset a new password.",
+                "Once you click ‘logout’, the user will be logged out of the platform immediately."
+            ],
+            "radio": "Activate account"
+        },
+        "name": "お名前",
+        "id": "ユーザーID",
+        "phone": "お問い合わせ",
+        "email": "メールアドレス",
+        "belong": "会社名",
+        "dist": "卸売業者",
+        "manager": "マネージャー",
+        "customer": "お客様",
+        "add-belong": "新しい顧客を追加",
+        "alarm-setting": "通知設定",
+        "general": "一般",
+        "report": "レポート",
+        "inactive-info": "アカウントの状態を無効にします。",
+        "inactive": "活動停止",
+        "active-info": "アカウントの状態を有効にします。",
+        "active": "活性化",
+        "password-reset-info": "アカウントのパスワードを初期化します。",
+        "password-reset": "パスワードの初期化",
+        "logout-info": "アカウントをログアウトします。",
+        "logout": "ログアウト",
+        "try-again": "しばらくしてからもう一度お試しください。",
+        "id-exist": "すでに使用されているIDです。別のIDで登録してください。",
+        "email-exist": "すでに使用されているメールアドレスです。別のメールで登録してください。",
+        "logout-success": "ログアウト完了",
+        "logout-failure": "ログアウトに失敗しました",
+        "logout-failure-info": "ログアウトに失敗しました。しばらくしてからもう一度お試しください。",
+        "password-reset-success": "パスワード初期化完了",
+        "password-reset-failure": "パスワードの初期化に失敗しました",
+        "password-reset-failure-info": "パスワードの初期化に失敗しました。しばらくしてからもう一度お試しください。",
+        "status-success": "アカウントステータス変更完了",
+        "status-failure": "アカウントステータスの変更に失敗しました",
+        "status-failure-info": "アカウントステータスの変更に失敗しました。しばらくしてからもう一度お試しください。",
+        "create-success": "登録されました。",
+        "update-success": "修正されました。",
+        "noti": "お知らせ",
+        "confirm": "確認",
+        "cancel": "キャンセル",
+        "create": {
+            "success": "会員作成に成功しました。",
+            "failure": "メンバーの作成に失敗しました。"
+        },
+        "update": {
+            "info": "変更を保存しますか?",
+            "confirm": "修正"
+        },
+        "password-reset-confirm": "そのアカウントのパスワードを初期化しますか？",
+        "logout-confirm": "そのアカウントをログアウト状態に変更しますか？",
+        "inactive-confirm": "そのアカウントをアクティビティ停止状態に変更しますか？",
+        "active-confirm": "そのアカウントを有効に変更しますか？",
+        "form": {
+            "id": {
+                "matches": "スペースと特殊文字は入力できません。",
+                "min": "少なくとも3桁以上入力してください。",
+                "max": "最大20桁以下で入力してください。",
+                "required": "IDを入力してください。"
+            },
+            "name": {
+                "min": "少なくとも2桁以上入力してください。",
+                "max": "最大20桁以下で入力してください。",
+                "required": "お名前を入力してください。"
+            },
+            "email": {
+                "matches": "メール形式で入力してください。",
+                "min": "少なくとも3桁以上入力してください。",
+                "required": "メールアドレスを入力してください。"
+            },
+            "phone": {
+                "required": "連絡先を入力してください。",
+                "matches": "正しい携帯電話番号を入力してください。"
+            },
+            "belong": "所属を選択してください。"
+        }
+    }
+}

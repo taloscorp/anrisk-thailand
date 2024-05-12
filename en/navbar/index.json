@@ -1,0 +1,40 @@
+{
+    "noti-popover": {
+        "noti": "Notification",
+        "noti-none": "There are no notifications",
+        "all-read": "Mark all as read",
+        "message": {
+            "extension": "If you do not extend the login session, you will be logged out after 5 minutes",
+            "complete": [
+                "Report ",
+                "has been generated."
+            ],
+            "delete": [
+                "Report ",
+                "has been deleted."
+            ],
+            "expire": [
+                "Report ",
+                "has expired and been deleted."
+            ],
+            "willExpired": [
+                "Report ",
+                "will expire soon."
+            ]
+        }
+    },
+    "account-popover": {
+        "my-info": "Profile",
+        "my-page": "Profile",
+        "signout": "Sign out",
+        "dist": "distribution manager",
+        "manager": "manager",
+        "user": "client"
+    },
+    "error": "Please try again in a moment",
+    "extension-popover": {
+        "noti": "Notification",
+        "confirm": "Extension",
+        "cancel": "No extension"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "type": "機関タイプ",
+    "direct": "自己契約",
+    "dist": "流通契約",
+    "all": "全て",
+    "count": "分析数",
+    "amount": "合計金額",
+    "unitPrice": "平均の値段",
+    "search": "検索",
+    "select-company": "顧客会社を選択してください。",
+    "sales": {
+        "meta-title": "分析レポート統計 | ANRISK",
+        "title": "分析レポート統計",
+        "home": "ホーム",
+        "no-data": "分析履歴がありません。",
+        "download": "EXCEL ダウンロード",
+        "date-label": "基準日",
+        "date-error": "今日の日付より早くはできません。",
+        "download-success": "売上統計ダウンロード成功",
+        "download-failure": "売上統計のダウンロードに失敗しました。しばらくしてからもう一度お試しください。"
+    },
+    "clients": {
+        "meta-title": "顧客会社の統計 | ANRISK",
+        "title": "顧客会社の統計",
+        "home": "ホーム",
+        "download": "EXCEL ダウンロード",
+        "labels": [
+            "毎日",
+            "毎週",
+            "毎月",
+            "四分期",
+            "半年",
+            "年間"
+        ],
+        "download-success": "お客様の統計ダウンロードの成功",
+        "download-failure": "得意先統計のダウンロードに失敗しました。しばらくしてからもう一度お試しください。"
+    },
+    "invoice": {
+        "meta-title": "税金計算書 | ANRISK",
+        "title": "税金計算書",
+        "date-label": "月別期間の照会",
+        "download": "月別のダウンロード",
+        "date-info": "毎月のダウンロード時に日付を選択してください。",
+        "download-success": "税計算書のダウンロード成功",
+        "download-failure": "税金請求書のダウンロードに失敗しました.\nしばらくしてからもう一度お試しください。"
+    },
+    "promotion": {
+        "meta-title": "プロモーション統計 | ANRISK",
+        "title": "プロモーション統計",
+        "home": "ホーム",
+        "no-data": "分析履歴がありません。",
+        "download": "EXCEL ダウンロード",
+        "date-label": "基準日",
+        "date-error": "今日の日付より早くはできません。",
+        "download-success": "プロモーション統計ダウンロード成功",
+        "download-failure": "プロモーション統計のダウンロードに失敗しました。しばらくしてからもう一度お試しください。"
+    }
+}

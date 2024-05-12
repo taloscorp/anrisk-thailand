@@ -1,0 +1,278 @@
+{
+    "home": "ホーム",
+    "management": {
+        "meta-title": "顧客会社の管理 | ANRISK",
+        "title": "顧客会社の管理",
+        "search": "顧客会社を検索",
+        "my": "私の顧客会社",
+        "all": "全体顧客会社",
+        "add-button": "お客様の登録",
+        "filter": {
+            "reset": "リセット",
+            "all": "全て",
+            "label": {
+                "country": "国"
+            },
+            "buttonList": {
+                "country": {
+                    "ko": "韓国",
+                    "ja": "日本",
+                    "india": "インド"
+                }
+            },
+            "hoverInfo": {
+                "in-progress": "登録審査中",
+                "in-progress-info": "証明ファイルの添付、顧客情報を入力して登録審査を申請した状態",
+                "rejection": "審査拒絶",
+                "rejection-info": "要請情報不足で審査が拒否された状態（再審査要請可能）",
+                "in-negotiation": "協議中",
+                "in-negotiation-info": "登録審査を通過し、当該顧客会社の契約のための協議状態",
+                "drafting": "協議終了",
+                "drafting-info": "協議後の契約予定の状態",
+                "uncontracted": "未契約",
+                "uncontracted-info": "協議後に契約不発な状態（未契約時代、流通会社登録可能）",
+                "contracted": "契約",
+                "contracted-info": "協議後に契約が締結され、ANRISKアカウントが発行された状態",
+                "end-contract": "契約終了",
+                "end-contract-info": "契約期間が満了したが契約延​​長を進行していない状態（契約終了時他流通会社登録可能）"
+            }
+        },
+        "info": "すでに登録されている病院は他の流通会社で営業が進行中です。重複営業にならないようご注意ください。",
+        "table": {
+            "name": "顧客会社名",
+            "managerName": "担当者名",
+            "phone": "お問い合わせ",
+            "email": "メールアドレス",
+            "companyType": "機関タイプ",
+            "paymentType": "決済タイプ",
+            "unitPrice": "単価",
+            "createdDate": "登録日",
+            "status": "契約状態",
+            "address": "住所",
+            "modify": "修正",
+            "more": "もっと見る",
+            "no-data": "登録された顧客会社がありません。"
+        }
+    },
+    "detail": {
+        "client": "顧客会社",
+        "more": "もっと見る",
+        "modify": "修正",
+        "save": "編集を保存",
+        "update": "変更する",
+        "request": "登録審査",
+        "info": {
+            "title": "基本情報",
+            "type": "機関タイプ",
+            "number": "事業者番号",
+            "address": "住所",
+            "country": "所属国",
+            "name": "機関名",
+            "direct": "直契約",
+            "distributor": "流通",
+            "dist": "流通会社",
+            "hosp": "病院",
+            "non-hosp": "非病院",
+            "etc": "その他",
+            "ko": "韓国",
+            "en": "アメリカ",
+            "ja": "日本",
+            "zhTW": "台湾",
+            "zhCN": "中国",
+            "india": "インド"
+        },
+        "contract": {
+            "title": "契約情報",
+            "description": "新規顧客作成のために証明ファイルのアップロードと基本情報を入力してください。登録依頼後に審査完了になったら、メールで通知を送信する予定です。",
+            "status": "状態",
+            "date": "日付",
+            "monthly": "毎月のお支払い",
+            "free-trial": "無料体験",
+            "expire-date": "有効期限",
+            "account": "更新したアカウント",
+            "account-talos": "タロスの内部アカウントです。",
+            "payment": "決済タイプ",
+            "payment-title": "お支払い情報",
+            "unitPrice": "単価 (JPY)",
+            "modal": {
+                "title": "契約情報を変更する",
+                "description": "契約情報に変更がある場合は、その情報を変更できます。編集する情報が正しいことを保存する前にもう一度確認してください。",
+                "status": "契約状態",
+                "expire-date": "無料体験有効期限",
+                "in-negotiation": "協議中",
+                "contracted": "契約",
+                "end-contract": "契約終了",
+                "reason": "理由",
+                "missing-card": "名刺が足りない",
+                "missing-files": "証明ファイルが不十分",
+                "missing-info": "情報誤入力",
+                "etc": "その他"
+            }
+        },
+        "files": {
+            "title": "証明ファイル",
+            "description": "お客様登録時にアップロードした証明ファイルです。ファイル名をクリックすると画像を確認できます。",
+            "not-found": "アップロードした証明ファイルがありません"
+        },
+        "manager": {
+            "title": "担当者情報",
+            "agency": "販売店",
+            "rep": "機関",
+            "pic": "決済",
+            "name": "お名前",
+            "phone": "お問い合わせ",
+            "email": "メールアドレス",
+            "modal": {
+                "title": "担当者情報を編集する",
+                "description": [
+                    "必須項目は ",
+                    " で示されています。精算担当者の情報がない場合や分からない場合は、空欄に保存してください。"
+                ]
+            }
+        }
+    },
+    "create": {
+        "title": "お客様の新規登録",
+        "description": "新規顧客作成のために証明ファイルのアップロードと基本情報を入力してください。登録依頼後に審査完了になったら、メールで通知を送信する予定です。",
+        "required": "（必須項目は*で示されています）",
+        "optional": "(選択)",
+        "back": "戻る",
+        "next": "次のステップ",
+        "skip": "スキップ",
+        "request": "お客様の登録依頼",
+        "status-info": "審査完了後、契約ステータスは更新されます",
+        "modify": "修正する",
+        "modify-save": "編集を保存",
+        "company-number": "事業者番号",
+        "companyType": "機関タイプ",
+        "contractType": "契約タイプ",
+        "address": "住所",
+        "search-address": "住所検索",
+        "detail-address": "詳細住所",
+        "contract-info": "契約情報",
+        "unitPrice": "単価",
+        "paymentType": "お支払いタイプ",
+        "monthly": "毎月のお支払い",
+        "free-trial": "無料体験",
+        "free": "無料体験",
+        "free-trial-expire": "無料体験有効期限",
+        "free-trial-expire-type": "無料体験後のお支払いタイプ",
+        "status": "契約状態",
+        "reject": "審査拒否",
+        "ing": "協議中",
+        "ing-done": "協議終了",
+        "non": "未契約",
+        "complete": "契約",
+        "complete-done": "契約終了",
+        "error": "すでに存在する顧客会社情報です。",
+        "try-again": "しばらくしてからもう一度お試しください。",
+        "unit-price": "単価を入力してください。",
+        "unit-price-error": "単価は数字のみ入力できます。",
+        "distributed": "流通情報を選択してください。",
+        "type": "機関タイプを選択してください。",
+        "date-error": "今日の日付より早くはできません。",
+        "update-success": "修正されました。",
+        "create-failure": "お客様の登録要求が失敗しました。",
+        "update-failure": "顧客の編集要求が失敗しました。",
+        "update-info": "その情報で編集しますか？",
+        "request-again": "その情報で顧客登録の再審査を依頼します。",
+        "request-again-success": "顧客登録再審査要求が完了しました。",
+        "request-again-failure": "再審査要求に失敗しました。",
+        "status-ing": "お客様の登録を承認しますか？",
+        "status-ing-success": "お客様の登録が承認されました。",
+        "status-reject": "その顧客の登録を拒否しますか？",
+        "status-reject-success": "お客様の登録が拒否されました。",
+        "files": {
+            "title": "証明ファイルのアップロード",
+            "info": [
+                "ANRISKに関連する時間、日付が表示された会議の写真に準拠した資料",
+                "(必須)",
+                "1. ミーティングした顧客代理店名刺+ディストリビューター担当者名刺",
+                "2. 実際のANRISK営業のための会議の証明写真",
+                "- ANRISK営業のためのミーティングで顧客社側職員と営業社員が一緒に出てきた写真に日付証明",
+                "- 約束した文字、メールキャプチャ",
+                "- ミーティング後の監査人または営業資料の配信メールのキャプチャ",
+                "その他ANRISK案内に関する証明写真、文書等",
+                "(オプション)"
+            ],
+            "required": "必須の証明ファイルをアップロードしてください。",
+            "dropzone": [
+                "ここにファイルをドラッグまたはクリックして",
+                "アップロードするファイルを選択してください。"
+            ]
+        },
+        "info": {
+            "title": "基本情報の入力",
+            "duplicate": "중복확인",
+            "number": {
+                "name": "事業者番号",
+                "required": "事業者番号を数字10桁で入力してください。",
+                "matches": "正しい事業者番号を入力してください。",
+                "duplicate-invalid": "すでに登録されているお客様です。",
+                "duplicate-success": "登録可能な事業者番号です。",
+                "duplicate-check": "事業者番号の重複を確認してください。"
+            },
+            "customer-info": "顧客会社情報",
+            "required": "(必須項目は*で示されています)",
+            "optional": "(オプション)",
+            "managerInfo": "機関担当者情報",
+            "picInfo": "決済担当者情報",
+            "add-request": "お客様の登録依頼",
+            "add": "お客様の新規登録",
+            "add-info": "新規顧客作成のために証明ファイルのアップロードと基本情報を入力してください。登録依頼後に審査完了になったら、メールで通知を送信する予定です。",
+            "status-info": "審査完了後、契約ステータスは更新されます",
+            "request-again-button": "再審査",
+            "request-again-success": "再審査リクエスト",
+            "info": "基本情報",
+            "name": "顧客会社名",
+            "managerName": "代表担当者名",
+            "managerPhone": "代表担当者の連絡先",
+            "managerEmail": "代表担当者のメール",
+            "picName": "決済担当者名",
+            "picPhone": "決済担当者連絡先",
+            "picEmail": "決済担当者のメール",
+            "phone": {
+                "matches": "正しいお問い合わせを入力してください。"
+            },
+            "email": {
+                "matches": "メール形式で入力してください。"
+            },
+            "address": {
+                "search": "住所検索",
+                "required": "住所を入力してください。"
+            },
+            "detail-address": {
+                "name": "詳細住所",
+                "required": "詳細アドレスを入力してください。"
+            }
+        },
+        "contract": {
+            "title": "契約状況",
+            "unitPrice": "単価",
+            "unit-price-error": "単価は数字のみ入力できます。",
+            "status": "契約状態",
+            "expire-date": "無料体験有効期限"
+        },
+        "confirm": {
+            "info": "登録したい情報を正しく確認しましたか？",
+            "go-back": "戻る",
+            "create-success": [
+                "お客様の新規登録依頼完了",
+                "お客様の新規登録をリクエストいただきありがとうございます。審査後、審査結果にメール通知を送信する予定です（審査期間の営業日3日以内）。",
+                "審査の承認後、アカウントを作成できます。"
+            ],
+            "warning": "顧客会社の登録後6ヶ月以内に売上が発生しないと、その顧客会社に対する独占権が失われる可能性があります。",
+            "description": [
+                "今登録した顧客会社の契約の優先権は、",
+                "に割り当てられます。",
+                "顧客会社と",
+                "そしてTALOSの共同発展のための努力をお願いします。"
+            ],
+            "sub-description": "登録された顧客名、住所、登録日を除く機密情報（e.g.単価など）は、他社に公開されません。",
+            "cancel": "キャンセル",
+            "confirm": "登録",
+            "add-more": "追加登録",
+            "go-to-page": "顧客会社管理ページに行く"
+        }
+    }
+}

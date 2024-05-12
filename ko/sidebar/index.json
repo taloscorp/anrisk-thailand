@@ -1,0 +1,35 @@
+{
+    "title": {
+        "risk-analysis": "위험도 분석",
+        "client": "고객 관리",
+        "sales": "영업 관리",
+        "support": "고객 센터",
+        "alarm": "알림",
+        "setting": "설정"
+    },
+    "subheader": {
+        "risk-analysis": "위험도 분석하기",
+        "risk-analysis-management": "분석 보고서 내역",
+        "account-management": "계정",
+        "company-management": "고객사",
+        "sales-stats": "매출 통계",
+        "company-stats": "고객사 통계",
+        "company-invoice": "세금 계산서",
+        "user-manual": "유저매뉴얼",
+        "resources": "자료실",
+        "inquiry": "문의 하기",
+        "mypage": "마이페이지",
+        "privacy-policy": "개인정보처리방침",
+        "security": "보안사항",
+        "policy": "개인정보처리방침",
+        "logout": "로그아웃 하기",
+        "admin": {
+            "report-sample": "샘플 관리"
+        }
+    },
+    "access": {
+        "dist": "유통관리자",
+        "manager": "매니저",
+        "user": "고객사"
+    }
+}
